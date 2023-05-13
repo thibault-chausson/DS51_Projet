@@ -1,0 +1,154 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xml:base="http://example13.com/animalia.owl"
+         xmlns="http://example13.com/animalia.owl#">
+
+<owl:Ontology rdf:about="http://example13.com/animalia.owl"/>
+
+<owl:ObjectProperty rdf:about="#possede">
+  <rdfs:domain rdf:resource="http://example9.com/animalia.owl#Animalia"/>
+  <rdfs:range rdf:resource="#CaracteristiqueMorphologique"/>
+  <rdfs:domain rdf:resource="http://example3.com/animalia.owl#Animalia"/>
+</owl:ObjectProperty>
+
+<owl:Class rdf:about="#CaracteristiqueMorphologique">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Patte">
+  <rdfs:subClassOf rdf:resource="#CaracteristiqueMorphologique"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Museau">
+  <rdfs:subClassOf rdf:resource="#CaracteristiqueMorphologique"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Aile">
+  <rdfs:subClassOf rdf:resource="#CaracteristiqueMorphologique"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Bec">
+  <rdfs:subClassOf rdf:resource="#CaracteristiqueMorphologique"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Queue">
+  <rdfs:subClassOf rdf:resource="#CaracteristiqueMorphologique"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Poil">
+  <rdfs:subClassOf rdf:resource="#CaracteristiqueMorphologique"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Plume">
+  <rdfs:subClassOf rdf:resource="#CaracteristiqueMorphologique"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Animalia">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Mammifere">
+  <rdfs:subClassOf rdf:resource="#Animalia"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#Animalia"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#possede"/>
+          <owl:onClass rdf:resource="#Aile"/>
+          <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:maxQualifiedCardinality>
+        </owl:Restriction>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#possede"/>
+          <owl:onClass rdf:resource="#Bec"/>
+          <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+        </owl:Restriction>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#possede"/>
+          <owl:onClass rdf:resource="#Queue"/>
+          <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+        </owl:Restriction>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#possede"/>
+          <owl:onClass rdf:resource="#Patte"/>
+          <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">4</owl:maxQualifiedCardinality>
+        </owl:Restriction>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#possede"/>
+          <owl:onClass rdf:resource="#Patte"/>
+          <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:minQualifiedCardinality>
+        </owl:Restriction>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#possede"/>
+          <owl:onClass rdf:resource="#Museau"/>
+          <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+        </owl:Restriction>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#possede"/>
+          <owl:onClass rdf:resource="#Poil"/>
+          <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="#Oiseau">
+  <rdfs:subClassOf rdf:resource="#Animalia"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#Animalia"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#possede"/>
+          <owl:onClass rdf:resource="#Aile"/>
+          <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:qualifiedCardinality>
+        </owl:Restriction>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#possede"/>
+          <owl:onClass rdf:resource="#Bec"/>
+          <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+        </owl:Restriction>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#possede"/>
+          <owl:onClass rdf:resource="#Queue"/>
+          <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="#Poisson">
+  <rdfs:subClassOf rdf:resource="#Animalia"/>
+</owl:Class>
+
+<Oiseau rdf:about="#Moineau">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Oiseau>
+
+<Mammifere rdf:about="#Marmotte">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Mammifere>
+
+<owl:AllDisjointClasses>
+  <owl:members rdf:parseType="Collection">
+    <rdf:Description rdf:about="#Mammifere"/>
+    <rdf:Description rdf:about="#Oiseau"/>
+    <rdf:Description rdf:about="#Poisson"/>
+  </owl:members>
+</owl:AllDisjointClasses>
+
+<owl:AllDisjointClasses>
+  <owl:members rdf:parseType="Collection">
+    <rdf:Description rdf:about="#Mammifere"/>
+    <rdf:Description rdf:about="#Oiseau"/>
+    <rdf:Description rdf:about="#Poisson"/>
+  </owl:members>
+</owl:AllDisjointClasses>
+
+
+</rdf:RDF>
