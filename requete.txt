@@ -1,0 +1,33 @@
+SELECT ?animal ?animalLabel ?classeLabel WHERE {
+  ?animal wdt:P31 wd:Q16521.
+  ?animal wdt:P279 ?classe.
+  ?classe wdt:P279 wd:Q729.
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
+}
+LIMIT 1000
+
+Pour récupérer les sous-classes de la classe "animal" (Q729) :
+
+SELECT DISTINCT ?animal ?animalLabel ?subclass ?subclassLabel ?subclass2 ?subclass2Label
+WHERE
+{
+  ?animal wdt:P279 wd:Q729.
+  ?animal wdt:P279 ?subclass .
+  OPTIONAL { ?subclass wdt:P279 ?subclass2 . }
+
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "fr". }
+}
+LIMIT 1000
+
+
+Pour récupérer les sous-classes de la classe "french bulldog" (Q29149) :
+
+SELECT DISTINCT ?animal ?animalLabel ?subclass ?subclassLabel ?subclass2 ?subclass2Label
+WHERE
+{
+  VALUES ?animal {wd:Q29149}
+  ?animal wdt:P279 ?subclass .
+  OPTIONAL { ?subclass wdt:P279 ?subclass2 . }
+
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],fr". }
+}
