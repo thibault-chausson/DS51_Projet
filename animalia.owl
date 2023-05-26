@@ -9,12 +9,15 @@
 <owl:Ontology rdf:about="http://example13.com/animalia.owl"/>
 
 <owl:ObjectProperty rdf:about="#possede">
-  <rdfs:domain rdf:resource="http://example9.com/animalia.owl#Animalia"/>
+  <rdfs:domain rdf:resource="#Animalia"/>
   <rdfs:range rdf:resource="#CaracteristiqueMorphologique"/>
-  <rdfs:domain rdf:resource="http://example3.com/animalia.owl#Animalia"/>
 </owl:ObjectProperty>
 
 <owl:Class rdf:about="#CaracteristiqueMorphologique">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Animalia">
   <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
 </owl:Class>
 
@@ -44,10 +47,6 @@
 
 <owl:Class rdf:about="#Plume">
   <rdfs:subClassOf rdf:resource="#CaracteristiqueMorphologique"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Animalia">
-  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
 </owl:Class>
 
 <owl:Class rdf:about="#Mammifere">
@@ -133,6 +132,14 @@
 <Mammifere rdf:about="#Marmotte">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </Mammifere>
+
+<owl:AllDisjointClasses>
+  <owl:members rdf:parseType="Collection">
+    <rdf:Description rdf:about="#Mammifere"/>
+    <rdf:Description rdf:about="#Oiseau"/>
+    <rdf:Description rdf:about="#Poisson"/>
+  </owl:members>
+</owl:AllDisjointClasses>
 
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
