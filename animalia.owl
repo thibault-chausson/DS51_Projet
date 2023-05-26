@@ -3,21 +3,21 @@
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
          xmlns:owl="http://www.w3.org/2002/07/owl#"
-         xml:base="http://example13.com/animalia.owl"
-         xmlns="http://example13.com/animalia.owl#">
+         xml:base="http://example130.com/animalia.owl"
+         xmlns="http://example130.com/animalia.owl#">
 
-<owl:Ontology rdf:about="http://example13.com/animalia.owl"/>
+<owl:Ontology rdf:about="http://example130.com/animalia.owl"/>
 
 <owl:ObjectProperty rdf:about="#possede">
   <rdfs:domain rdf:resource="#Animalia"/>
   <rdfs:range rdf:resource="#CaracteristiqueMorphologique"/>
 </owl:ObjectProperty>
 
-<owl:Class rdf:about="#CaracteristiqueMorphologique">
+<owl:Class rdf:about="#Animalia">
   <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
 </owl:Class>
 
-<owl:Class rdf:about="#Animalia">
+<owl:Class rdf:about="#CaracteristiqueMorphologique">
   <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
 </owl:Class>
 
@@ -132,14 +132,6 @@
 <Mammifere rdf:about="#Marmotte">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </Mammifere>
-
-<owl:AllDisjointClasses>
-  <owl:members rdf:parseType="Collection">
-    <rdf:Description rdf:about="#Mammifere"/>
-    <rdf:Description rdf:about="#Oiseau"/>
-    <rdf:Description rdf:about="#Poisson"/>
-  </owl:members>
-</owl:AllDisjointClasses>
 
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
