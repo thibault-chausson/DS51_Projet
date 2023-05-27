@@ -3,10 +3,10 @@
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
          xmlns:owl="http://www.w3.org/2002/07/owl#"
-         xml:base="http://example65118.com/animalia.owl"
-         xmlns="http://example65118.com/animalia.owl#">
+         xml:base="http://example651111gfhnjggfhgfdgfnhgf81.com/animalia.owl"
+         xmlns="http://example651111gfhnjggfhgfdgfnhgf81.com/animalia.owl#">
 
-<owl:Ontology rdf:about="http://example65118.com/animalia.owl"/>
+<owl:Ontology rdf:about="http://example651111gfhnjggfhgfdgfnhgf81.com/animalia.owl"/>
 
 <owl:ObjectProperty rdf:about="#Contient">
   <rdfs:domain rdf:resource="#Image"/>
@@ -27,17 +27,16 @@
   <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
 </owl:Class>
 
-<owl:Class rdf:about="#Felidae">
-  <rdfs:subClassOf rdf:resource="#Animalia"/>
-</owl:Class>
-
 <owl:Class rdf:about="#animal">
   <rdfs:subClassOf rdf:resource="#Animalia"/>
 </owl:Class>
 
-<owl:Class rdf:about="#elephant">
+<owl:Class rdf:about="#elephant-2">
   <rdfs:subClassOf rdf:resource="#Animalia"/>
-  <rdfs:subClassOf rdf:resource="#mammal"/>
+</owl:Class>
+
+<owl:Class rdf:about="#felidae">
+  <rdfs:subClassOf rdf:resource="#Animalia"/>
 </owl:Class>
 
 <owl:Class rdf:about="#fish">
@@ -52,8 +51,12 @@
   <rdfs:subClassOf rdf:resource="#Animalia"/>
 </owl:Class>
 
-<owl:Class rdf:about="#Asian_elephant">
-  <rdfs:subClassOf rdf:resource="#elephant"/>
+<owl:Class rdf:about="#penguin-2">
+  <rdfs:subClassOf rdf:resource="#Animalia"/>
+</owl:Class>
+
+<owl:Class rdf:about="#asian_elephant">
+  <rdfs:subClassOf rdf:resource="#elephant-2"/>
 </owl:Class>
 
 <owl:Class rdf:about="#bear">
@@ -61,11 +64,19 @@
 </owl:Class>
 
 <owl:Class rdf:about="#big_cat">
-  <rdfs:subClassOf rdf:resource="#Felidae"/>
+  <rdfs:subClassOf rdf:resource="#felidae"/>
 </owl:Class>
 
 <owl:Class rdf:about="#electric_fish">
   <rdfs:subClassOf rdf:resource="#fish"/>
+</owl:Class>
+
+<owl:Class rdf:about="#elephant-1">
+  <rdfs:subClassOf rdf:resource="#mammal"/>
+</owl:Class>
+
+<owl:Class rdf:about="#penguin-1">
+  <rdfs:subClassOf rdf:resource="#penguin-2"/>
 </owl:Class>
 
 <owl:Class rdf:about="#vegetable">
@@ -120,9 +131,13 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </big_cat>
 
-<elephant rdf:about="#African_elephant">
+<penguin-1 rdf:about="#king_penguin">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-</elephant>
+</penguin-1>
+
+<elephant-1 rdf:about="#african_elephant">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</elephant-1>
 
 <big_cat rdf:about="#cheetah">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -152,9 +167,9 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </vegetable>
 
-<Asian_elephant rdf:about="#Indian_elephant">
+<asian_elephant rdf:about="#indian_elephant">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-</Asian_elephant>
+</asian_elephant>
 
 <Image rdf:about="#n10_01">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -170,23 +185,25 @@
 
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
-    <rdf:Description rdf:about="#Asian_elephant"/>
+    <rdf:Description rdf:about="#asian_elephant"/>
     <rdf:Description rdf:about="#bear"/>
     <rdf:Description rdf:about="#big_cat"/>
     <rdf:Description rdf:about="#electric_fish"/>
-    <rdf:Description rdf:about="#elephant"/>
+    <rdf:Description rdf:about="#elephant-1"/>
+    <rdf:Description rdf:about="#penguin-1"/>
     <rdf:Description rdf:about="#vegetable"/>
   </owl:members>
 </owl:AllDisjointClasses>
 
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
-    <rdf:Description rdf:about="#Felidae"/>
     <rdf:Description rdf:about="#animal"/>
-    <rdf:Description rdf:about="#elephant"/>
+    <rdf:Description rdf:about="#elephant-2"/>
+    <rdf:Description rdf:about="#felidae"/>
     <rdf:Description rdf:about="#fish"/>
     <rdf:Description rdf:about="#food_ingredient"/>
     <rdf:Description rdf:about="#mammal"/>
+    <rdf:Description rdf:about="#penguin-2"/>
   </owl:members>
 </owl:AllDisjointClasses>
 

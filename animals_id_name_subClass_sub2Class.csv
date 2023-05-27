@@ -1,55 +1,96 @@
-id_wiki,animalLabel,subclassLabel,subclass2Label
-Q1144302,0,0,0
-Q1149509,0,0,0
-Q123141,0,0,0
-Q129026,0,0,0
-Q129544,0,0,0
-Q13158,0,0,0
-Q132576,0,0,0
-Q134015,0,0,0
-Q140,lion,big cat,Felidae
-Q145016,0,0,0
-Q1522299,0,0,0
-Q15343,0,0,0
-Q159404,0,0,0
-Q177932,0,0,0
-Q181871,0,0,0
-Q185038,African elephant,elephant,mammal
-Q185167,0,0,0
-Q185939,0,0,0
-Q19125,0,0,0
-Q192029,0,0,0
-Q192754,0,0,0
-Q193327,0,0,0
-Q193407,0,0,0
-Q19939,0,0,0
-Q207058,0,0,0
-Q22718,0,0,0
-Q23907,cheetah,big cat,Felidae
-Q25349,0,0,0
-Q273291,0,0,0
-Q32789,0,0,0
-Q33602,0,0,0
-Q34706,leopard,big cat,Felidae
-Q35255,cougar,big cat,Felidae
-Q35694,jaguar,big cat,Felidae
-Q36341,brown bear,bear,animal
-Q374302,0,0,0
-Q38584,0,0,0
-Q41317,electric ray,electric fish,fish
-Q42710,0,0,0
-Q43447,0,0,0
-Q43624,0,0,0
-Q44299,0,0,0
-Q47542,0,0,0
-Q47722,broccoli,vegetable,food ingredient
-Q47867,0,0,0
-Q506144,0,0,0
-Q55805,0,0,0
-Q591305,Indian elephant,Asian elephant,elephant
-Q622880,0,0,0
-Q694296,0,0,0
-Q734870,0,0,0
-Q76280,0,0,0
-Q8332,0,0,0
-Q83483,0,0,0
+id_wiki,animalLabel,subclassLabel,subclass2Label,id
+Q1049642,indigo bunting,0,0,n01537544
+Q1144302,tree frog,0,0,n01644373
+Q1149509,garter snake,0,0,n01735189
+Q1153386,agama,0,0,n01687978
+Q123141,goldfish,0,0,n01443537
+Q127216,bald eagle,0,0,n01614925
+Q129026,great white shark,0,0,n01484850
+Q129544,dugong,0,0,n02074367
+Q1306991,barn spider,0,0,n01773549
+Q131044,black swan,0,0,n01860187
+Q13158,strawberry,0,0,n07745940
+Q132576,impala,0,0,n02422699
+Q132585,dhole,0,0,n02115913
+Q134015,meerkat,0,0,n02138441
+Q140,lion,big cat,felidae,n02129165
+Q145016,sloth bear,0,0,n02134418
+Q1522299,alligator lizard,0,0,n01689811
+Q15343,platypus,0,0,n01873310
+Q155878,black grouse,0,0,n01795545
+Q159404,bullfrog,0,0,n01641577
+Q17700,mink,0,0,n02442845
+Q177932,rapeseed,0,0,n11879895
+Q18099,bison,0,0,n02410509
+Q1813704,magpie,0,0,n01582220
+Q181871,sturgeon,0,0,n02640242
+Q182209,king penguin,penguin-1,penguin-2,n02056570
+Q185038,african elephant,elephant-1,mammal,n02504458
+Q185167,three-toed sloth,0,0,n02457408
+Q185939,gibbon,0,0,n02483362
+Q1861297,king crab,0,0,n01981276
+Q188877,brambling,0,0,n01530575
+Q189609,red-breasted merganser,0,0,n01855032
+Q19058,ruffed grouse,0,0,n01797886
+Q19125,scorpion,0,0,n01770393
+Q192029,proboscis monkey,0,0,n02489166
+Q192754,indian cobra,0,0,n01748264
+Q193327,american alligator,0,0,n01698640
+Q193407,leaf beetle,0,0,n02169497
+Q19939,tiger,0,0,n02129604
+Q200724,great grey owl,0,0,n01622779
+Q207058,gila monster,0,0,n01692333
+Q207107,sulphur-crested cockatoo,0,0,n01819313
+Q212942,jacamar,0,0,n01843065
+Q215388,boa constrictor,0,0,n01742172
+Q22718,axolotl,0,0,n01632777
+Q23907,cheetah,big cat,felidae,n02130308
+Q25349,starfish,0,0,n02317335
+Q25352,white stork,0,0,n02002556
+Q25398,black stork,0,0,n02002724
+Q255571,guenon,0,0,n02484975
+Q26773,hornbill,0,0,n01829413
+Q26892,ruddy turnstone,0,0,n02025239
+Q273291,hermit crab,0,0,n01986214
+Q286088,guinea pig,0,0,n02364673
+Q32789,zebra,0,0,n02391049
+Q33602,giant panda,0,0,n02510455
+Q34706,leopard,big cat,felidae,n02128385
+Q35255,cougar,big cat,felidae,n02125311
+Q35694,jaguar,big cat,felidae,n02128925
+Q36101,koala,0,0,n01882714
+Q36341,brown bear,bear,animal,n02132136
+Q36611,gorilla,0,0,n02480855
+Q371028,little blue heron,0,0,n02009229
+Q374302,house finch,0,0,n01532829
+Q38584,dingo,0,0,n02115641
+Q41050,orangutan,0,0,n02480495
+Q41317,electric ray,electric fish,fish,n01496331
+Q42710,water buffalo,0,0,n02408429
+Q43447,centipede,0,0,n01784675
+Q43624,hummingbird,0,0,n01833805
+Q44299,coyote,0,0,n02114855
+Q470016,american coot,0,0,n02018207
+Q47542,beaver,0,0,n02363005
+Q47722,broccoli,vegetable,food ingredient,n07714990
+Q47867,armadillo,0,0,n02454379
+Q506144,gar,0,0,n02641379
+Q507307,mantis,0,0,n02236044
+Q55805,albatross,0,0,n02058221
+Q580989,gyromitra,0,0,n13037406
+Q591305,indian elephant,asian elephant,elephant-2,n02504013
+Q622880,hartebeest,0,0,n02422106
+Q629680,hippopotamus,0,0,n02398521
+Q677014,lynx,0,0,n02127052
+Q694296,fox squirrel,0,0,n02356798
+Q729897,rock beauty,0,0,n02606052
+Q734870,box turtle,0,0,n01669191
+Q745751,kit fox,0,0,n02119789
+Q76280,tench,0,0,n01440764
+Q8332,red fox,0,0,n02119022
+Q83483,sea urchin,0,0,n02319095
+Q838747,dowitcher,0,0,n02033041
+Q857319,junco,0,0,n01534433
+Q913206,echidna,0,0,n01872401
+,wolf,0,0,n02114367
+,bear,0,0,n02133161

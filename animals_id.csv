@@ -1,55 +1,96 @@
 animal,id,animalLabel
+http://www.wikidata.org/entity/Q1049642,n01537544,indigo bunting
 http://www.wikidata.org/entity/Q1144302,n01644373,tree frog
 http://www.wikidata.org/entity/Q1149509,n01735189,garter snake
+http://www.wikidata.org/entity/Q1153386,n01687978,agama
 http://www.wikidata.org/entity/Q123141,n01443537,goldfish
+http://www.wikidata.org/entity/Q127216,n01614925,bald eagle
 http://www.wikidata.org/entity/Q129026,n01484850,great white shark
 http://www.wikidata.org/entity/Q129544,n02074367,dugong
+http://www.wikidata.org/entity/Q1306991,n01773549,barn spider
+http://www.wikidata.org/entity/Q131044,n01860187,black swan
 http://www.wikidata.org/entity/Q13158,n07745940,strawberry
 http://www.wikidata.org/entity/Q132576,n02422699,impala
+http://www.wikidata.org/entity/Q132585,n02115913,dhole
 http://www.wikidata.org/entity/Q134015,n02138441,meerkat
 http://www.wikidata.org/entity/Q140,n02129165,lion
 http://www.wikidata.org/entity/Q145016,n02134418,sloth bear
 http://www.wikidata.org/entity/Q1522299,n01689811,alligator lizard
 http://www.wikidata.org/entity/Q15343,n01873310,platypus
+http://www.wikidata.org/entity/Q155878,n01795545,black grouse
 http://www.wikidata.org/entity/Q159404,n01641577,bullfrog
+http://www.wikidata.org/entity/Q17700,n02442845,mink
 http://www.wikidata.org/entity/Q177932,n11879895,rapeseed
+http://www.wikidata.org/entity/Q18099,n02410509,bison
+http://www.wikidata.org/entity/Q1813704,n01582220,magpie
 http://www.wikidata.org/entity/Q181871,n02640242,sturgeon
-http://www.wikidata.org/entity/Q185038,n02504458,African elephant
+http://www.wikidata.org/entity/Q182209,n02056570,king penguin
+http://www.wikidata.org/entity/Q185038,n02504458,african elephant
 http://www.wikidata.org/entity/Q185167,n02457408,three-toed sloth
 http://www.wikidata.org/entity/Q185939,n02483362,gibbon
+http://www.wikidata.org/entity/Q1861297,n01981276,king crab
+http://www.wikidata.org/entity/Q188877,n01530575,brambling
+http://www.wikidata.org/entity/Q189609,n01855032,red-breasted merganser
+http://www.wikidata.org/entity/Q19058,n01797886,ruffed grouse
 http://www.wikidata.org/entity/Q19125,n01770393,scorpion
 http://www.wikidata.org/entity/Q192029,n02489166,proboscis monkey
-http://www.wikidata.org/entity/Q192754,n01748264,Indian cobra
-http://www.wikidata.org/entity/Q193327,n01698640,American alligator
+http://www.wikidata.org/entity/Q192754,n01748264,indian cobra
+http://www.wikidata.org/entity/Q193327,n01698640,american alligator
 http://www.wikidata.org/entity/Q193407,n02169497,leaf beetle
 http://www.wikidata.org/entity/Q19939,n02129604,tiger
-http://www.wikidata.org/entity/Q207058,n01692333,Gila monster
+http://www.wikidata.org/entity/Q200724,n01622779,great grey owl
+http://www.wikidata.org/entity/Q207058,n01692333,gila monster
+http://www.wikidata.org/entity/Q207107,n01819313,sulphur-crested cockatoo
+http://www.wikidata.org/entity/Q212942,n01843065,jacamar
+http://www.wikidata.org/entity/Q215388,n01742172,boa constrictor
 http://www.wikidata.org/entity/Q22718,n01632777,axolotl
 http://www.wikidata.org/entity/Q23907,n02130308,cheetah
 http://www.wikidata.org/entity/Q25349,n02317335,starfish
+http://www.wikidata.org/entity/Q25352,n02002556,white stork
+http://www.wikidata.org/entity/Q25398,n02002724,black stork
+http://www.wikidata.org/entity/Q255571,n02484975,guenon
+http://www.wikidata.org/entity/Q26773,n01829413,hornbill
+http://www.wikidata.org/entity/Q26892,n02025239,ruddy turnstone
 http://www.wikidata.org/entity/Q273291,n01986214,hermit crab
+http://www.wikidata.org/entity/Q286088,n02364673,guinea pig
 http://www.wikidata.org/entity/Q32789,n02391049,zebra
 http://www.wikidata.org/entity/Q33602,n02510455,giant panda
 http://www.wikidata.org/entity/Q34706,n02128385,leopard
 http://www.wikidata.org/entity/Q35255,n02125311,cougar
 http://www.wikidata.org/entity/Q35694,n02128925,jaguar
+http://www.wikidata.org/entity/Q36101,n01882714,koala
 http://www.wikidata.org/entity/Q36341,n02132136,brown bear
+http://www.wikidata.org/entity/Q36611,n02480855,gorilla
+http://www.wikidata.org/entity/Q371028,n02009229,little blue heron
 http://www.wikidata.org/entity/Q374302,n01532829,house finch
 http://www.wikidata.org/entity/Q38584,n02115641,dingo
+http://www.wikidata.org/entity/Q41050,n02480495,orangutan
 http://www.wikidata.org/entity/Q41317,n01496331,electric ray
 http://www.wikidata.org/entity/Q42710,n02408429,water buffalo
 http://www.wikidata.org/entity/Q43447,n01784675,centipede
 http://www.wikidata.org/entity/Q43624,n01833805,hummingbird
 http://www.wikidata.org/entity/Q44299,n02114855,coyote
+http://www.wikidata.org/entity/Q470016,n02018207,american coot
 http://www.wikidata.org/entity/Q47542,n02363005,beaver
 http://www.wikidata.org/entity/Q47722,n07714990,broccoli
 http://www.wikidata.org/entity/Q47867,n02454379,armadillo
 http://www.wikidata.org/entity/Q506144,n02641379,gar
+http://www.wikidata.org/entity/Q507307,n02236044,mantis
 http://www.wikidata.org/entity/Q55805,n02058221,albatross
-http://www.wikidata.org/entity/Q591305,n02504013,Indian elephant
+http://www.wikidata.org/entity/Q580989,n13037406,gyromitra
+http://www.wikidata.org/entity/Q591305,n02504013,indian elephant
 http://www.wikidata.org/entity/Q622880,n02422106,hartebeest
+http://www.wikidata.org/entity/Q629680,n02398521,hippopotamus
+http://www.wikidata.org/entity/Q677014,n02127052,lynx
 http://www.wikidata.org/entity/Q694296,n02356798,fox squirrel
+http://www.wikidata.org/entity/Q729897,n02606052,rock beauty
 http://www.wikidata.org/entity/Q734870,n01669191,box turtle
+http://www.wikidata.org/entity/Q745751,n02119789,kit fox
 http://www.wikidata.org/entity/Q76280,n01440764,tench
 http://www.wikidata.org/entity/Q8332,n02119022,red fox
 http://www.wikidata.org/entity/Q83483,n02319095,sea urchin
+http://www.wikidata.org/entity/Q838747,n02033041,dowitcher
+http://www.wikidata.org/entity/Q857319,n01534433,junco
+http://www.wikidata.org/entity/Q913206,n01872401,echidna
+,n02114367,wolf
+,n02133161,bear
