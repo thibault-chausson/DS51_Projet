@@ -3,10 +3,10 @@
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
          xmlns:owl="http://www.w3.org/2002/07/owl#"
-         xml:base="http://exampleOK.com/animalia.owl"
-         xmlns="http://exampleOK.com/animalia.owl#">
+         xml:base="http://exampleOK2.com/animalia.owl"
+         xmlns="http://exampleOK2.com/animalia.owl#">
 
-<owl:Ontology rdf:about="http://exampleOK.com/animalia.owl"/>
+<owl:Ontology rdf:about="http://exampleOK2.com/animalia.owl"/>
 
 <owl:ObjectProperty rdf:about="#Contient">
   <rdfs:domain rdf:resource="#Image"/>
@@ -27,12 +27,12 @@
   <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
 </owl:Class>
 
-<owl:Class rdf:about="#animal_class">
+<owl:Class rdf:about="#animal">
   <rdfs:subClassOf rdf:resource="#Animalia"/>
 </owl:Class>
 
 <owl:Class rdf:about="#bear_class">
-  <rdfs:subClassOf rdf:resource="#animal_class"/>
+  <rdfs:subClassOf rdf:resource="#animal"/>
 </owl:Class>
 
 <owl:Class rdf:about="#mammal">
@@ -2874,7 +2874,7 @@
 <owl:AllDifferent>
   <owl:distinctMembers>
     <rdf:Description>
-  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal_class</rdf:first>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal</rdf:first>
     <rdf:rest>
     <rdf:Description>
   <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bear_class</rdf:first>
@@ -2938,7 +2938,7 @@
 <owl:AllDifferent>
   <owl:distinctMembers>
     <rdf:Description>
-  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal_class</rdf:first>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal</rdf:first>
     <rdf:rest>
     <rdf:Description>
   <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bear_class</rdf:first>
@@ -3002,7 +3002,7 @@
 <owl:AllDifferent>
   <owl:distinctMembers>
     <rdf:Description>
-  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal_class</rdf:first>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal</rdf:first>
     <rdf:rest>
     <rdf:Description>
   <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bear_class</rdf:first>
@@ -3061,7 +3061,7 @@
 <owl:AllDifferent>
   <owl:distinctMembers>
     <rdf:Description>
-  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal_class</rdf:first>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal</rdf:first>
     <rdf:rest>
     <rdf:Description>
   <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bear_class</rdf:first>
@@ -3125,7 +3125,7 @@
 <owl:AllDifferent>
   <owl:distinctMembers>
     <rdf:Description>
-  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal_class</rdf:first>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal</rdf:first>
     <rdf:rest>
     <rdf:Description>
   <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bear_class</rdf:first>
@@ -3184,7 +3184,7 @@
 <owl:AllDifferent>
   <owl:distinctMembers>
     <rdf:Description>
-  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal_class</rdf:first>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal</rdf:first>
     <rdf:rest>
     <rdf:Description>
   <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bear_class</rdf:first>
@@ -3248,7 +3248,7 @@
 <owl:AllDifferent>
   <owl:distinctMembers>
     <rdf:Description>
-  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal_class</rdf:first>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal</rdf:first>
     <rdf:rest>
     <rdf:Description>
   <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bear_class</rdf:first>
@@ -3307,7 +3307,7 @@
 <owl:AllDifferent>
   <owl:distinctMembers>
     <rdf:Description>
-  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal_class</rdf:first>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal</rdf:first>
     <rdf:rest>
     <rdf:Description>
   <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bear_class</rdf:first>
@@ -3371,7 +3371,7 @@
 <owl:AllDifferent>
   <owl:distinctMembers>
     <rdf:Description>
-  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal_class</rdf:first>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal</rdf:first>
     <rdf:rest>
     <rdf:Description>
   <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bear_class</rdf:first>
@@ -3430,7 +3430,7 @@
 <owl:AllDifferent>
   <owl:distinctMembers>
     <rdf:Description>
-  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal_class</rdf:first>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal</rdf:first>
     <rdf:rest>
     <rdf:Description>
   <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bear_class</rdf:first>
@@ -3459,70 +3459,6 @@
     <rdf:Description>
   <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mammal</rdf:first>
     <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-    </rdf:Description>
-    </rdf:rest>
-    </rdf:Description>
-    </rdf:rest>
-    </rdf:Description>
-    </rdf:rest>
-    </rdf:Description>
-    </rdf:rest>
-    </rdf:Description>
-    </rdf:rest>
-    </rdf:Description>
-    </rdf:rest>
-    </rdf:Description>
-    </rdf:rest>
-    </rdf:Description>
-    </rdf:rest>
-    </rdf:Description>
-    </rdf:rest>
-    </rdf:Description>
-  </owl:distinctMembers>
-</owl:AllDifferent>
-
-<owl:AllDifferent>
-  <owl:distinctMembers>
-    <rdf:Description>
-  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mammal</rdf:first>
-    <rdf:rest>
-    <rdf:Description>
-  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">elephant</rdf:first>
-    <rdf:rest>
-    <rdf:Description>
-  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">asian_elephant</rdf:first>
-    <rdf:rest>
-    <rdf:Description>
-  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">felidae</rdf:first>
-    <rdf:rest>
-    <rdf:Description>
-  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">big_cat</rdf:first>
-    <rdf:rest>
-    <rdf:Description>
-  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fish</rdf:first>
-    <rdf:rest>
-    <rdf:Description>
-  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">electric_fish</rdf:first>
-    <rdf:rest>
-    <rdf:Description>
-  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">food_ingredient</rdf:first>
-    <rdf:rest>
-    <rdf:Description>
-  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vegetable</rdf:first>
-    <rdf:rest>
-    <rdf:Description>
-  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">penguin</rdf:first>
-    <rdf:rest>
-    <rdf:Description>
-  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal_class</rdf:first>
-    <rdf:rest>
-    <rdf:Description>
-  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bear_class</rdf:first>
-    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-    </rdf:Description>
-    </rdf:rest>
-    </rdf:Description>
-    </rdf:rest>
     </rdf:Description>
     </rdf:rest>
     </rdf:Description>
@@ -3578,7 +3514,71 @@
   <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">penguin</rdf:first>
     <rdf:rest>
     <rdf:Description>
-  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal_class</rdf:first>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bear_class</rdf:first>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+  </owl:distinctMembers>
+</owl:AllDifferent>
+
+<owl:AllDifferent>
+  <owl:distinctMembers>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mammal</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">elephant</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">asian_elephant</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">felidae</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">big_cat</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fish</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">electric_fish</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">food_ingredient</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vegetable</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">penguin</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal</rdf:first>
     <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
     </rdf:Description>
     </rdf:rest>
