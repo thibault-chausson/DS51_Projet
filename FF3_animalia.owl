@@ -3,10 +3,10 @@
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
          xmlns:owl="http://www.w3.org/2002/07/owl#"
-         xml:base="http://example651141dfdvfg81.com/animalia.owl"
-         xmlns="http://example651141dfdvfg81.com/animalia.owl#">
+         xml:base="http://exampleOK.com/animalia.owl"
+         xmlns="http://exampleOK.com/animalia.owl#">
 
-<owl:Ontology rdf:about="http://example651141dfdvfg81.com/animalia.owl"/>
+<owl:Ontology rdf:about="http://exampleOK.com/animalia.owl"/>
 
 <owl:ObjectProperty rdf:about="#Contient">
   <rdfs:domain rdf:resource="#Image"/>
@@ -27,13 +27,12 @@
   <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
 </owl:Class>
 
-<owl:Class rdf:about="#animal">
+<owl:Class rdf:about="#animal_class">
   <rdfs:subClassOf rdf:resource="#Animalia"/>
 </owl:Class>
 
-<owl:Class rdf:about="#bear">
-  <rdfs:subClassOf rdf:resource="#animal"/>
-  <rdf:type rdf:resource="#SansFamille"/>
+<owl:Class rdf:about="#bear_class">
+  <rdfs:subClassOf rdf:resource="#animal_class"/>
 </owl:Class>
 
 <owl:Class rdf:about="#mammal">
@@ -116,13 +115,105 @@
   <rdfs:subClassOf rdf:resource="#CaracteristiqueMorphologique"/>
 </owl:Class>
 
-<SansFamille rdf:about="#0">
+<SansFamille rdf:about="#indigo_bunting">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SansFamille>
+
+<SansFamille rdf:about="#tree_frog">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SansFamille>
+
+<SansFamille rdf:about="#garter_snake">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SansFamille>
+
+<SansFamille rdf:about="#agama">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SansFamille>
+
+<SansFamille rdf:about="#goldfish">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SansFamille>
+
+<SansFamille rdf:about="#bald_eagle">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SansFamille>
+
+<SansFamille rdf:about="#great_white_shark">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SansFamille>
+
+<SansFamille rdf:about="#dugong">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SansFamille>
+
+<SansFamille rdf:about="#barn_spider">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SansFamille>
+
+<SansFamille rdf:about="#black_swan">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SansFamille>
+
+<SansFamille rdf:about="#strawberry">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SansFamille>
+
+<SansFamille rdf:about="#impala">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SansFamille>
+
+<SansFamille rdf:about="#dhole">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SansFamille>
+
+<SansFamille rdf:about="#meerkat">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </SansFamille>
 
 <big_cat rdf:about="#lion">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </big_cat>
+
+<SansFamille rdf:about="#sloth_bear">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SansFamille>
+
+<SansFamille rdf:about="#alligator_lizard">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SansFamille>
+
+<SansFamille rdf:about="#platypus">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SansFamille>
+
+<SansFamille rdf:about="#black_grouse">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SansFamille>
+
+<SansFamille rdf:about="#bullfrog">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SansFamille>
+
+<SansFamille rdf:about="#mink">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SansFamille>
+
+<SansFamille rdf:about="#rapeseed">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SansFamille>
+
+<SansFamille rdf:about="#bison">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SansFamille>
+
+<SansFamille rdf:about="#magpie">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SansFamille>
+
+<SansFamille rdf:about="#sturgeon">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SansFamille>
 
 <penguin rdf:about="#king_penguin">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -132,9 +223,121 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </elephant>
 
+<SansFamille rdf:about="#three-toed_sloth">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SansFamille>
+
+<SansFamille rdf:about="#gibbon">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SansFamille>
+
+<SansFamille rdf:about="#king_crab">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SansFamille>
+
+<SansFamille rdf:about="#brambling">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SansFamille>
+
+<SansFamille rdf:about="#red-breasted_merganser">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SansFamille>
+
+<SansFamille rdf:about="#ruffed_grouse">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SansFamille>
+
+<SansFamille rdf:about="#scorpion">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SansFamille>
+
+<SansFamille rdf:about="#proboscis_monkey">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SansFamille>
+
+<SansFamille rdf:about="#indian_cobra">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SansFamille>
+
+<SansFamille rdf:about="#american_alligator">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SansFamille>
+
+<SansFamille rdf:about="#leaf_beetle">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SansFamille>
+
+<SansFamille rdf:about="#tiger">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SansFamille>
+
+<SansFamille rdf:about="#great_grey_owl">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SansFamille>
+
+<SansFamille rdf:about="#gila_monster">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SansFamille>
+
+<SansFamille rdf:about="#sulphur-crested_cockatoo">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SansFamille>
+
+<SansFamille rdf:about="#jacamar">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SansFamille>
+
+<SansFamille rdf:about="#boa_constrictor">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SansFamille>
+
+<SansFamille rdf:about="#axolotl">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SansFamille>
+
 <big_cat rdf:about="#cheetah">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </big_cat>
+
+<SansFamille rdf:about="#starfish">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SansFamille>
+
+<SansFamille rdf:about="#white_stork">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SansFamille>
+
+<SansFamille rdf:about="#black_stork">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SansFamille>
+
+<SansFamille rdf:about="#guenon">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SansFamille>
+
+<SansFamille rdf:about="#hornbill">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SansFamille>
+
+<SansFamille rdf:about="#ruddy_turnstone">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SansFamille>
+
+<SansFamille rdf:about="#hermit_crab">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SansFamille>
+
+<SansFamille rdf:about="#guinea_pig">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SansFamille>
+
+<SansFamille rdf:about="#zebra">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SansFamille>
+
+<SansFamille rdf:about="#giant_panda">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SansFamille>
 
 <big_cat rdf:about="#leopard">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -148,31 +351,155 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </big_cat>
 
-<bear rdf:about="#brown_bear">
+<SansFamille rdf:about="#koala">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-</bear>
+</SansFamille>
+
+<bear_class rdf:about="#brown_bear">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</bear_class>
+
+<SansFamille rdf:about="#gorilla">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SansFamille>
+
+<SansFamille rdf:about="#little_blue_heron">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SansFamille>
+
+<SansFamille rdf:about="#house_finch">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SansFamille>
+
+<SansFamille rdf:about="#dingo">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SansFamille>
+
+<SansFamille rdf:about="#orangutan">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SansFamille>
 
 <electric_fish rdf:about="#electric_ray">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </electric_fish>
 
+<SansFamille rdf:about="#water_buffalo">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SansFamille>
+
+<SansFamille rdf:about="#centipede">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SansFamille>
+
+<SansFamille rdf:about="#hummingbird">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SansFamille>
+
+<SansFamille rdf:about="#coyote">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SansFamille>
+
+<SansFamille rdf:about="#american_coot">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SansFamille>
+
+<SansFamille rdf:about="#beaver">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SansFamille>
+
 <vegetable rdf:about="#broccoli">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </vegetable>
 
+<SansFamille rdf:about="#armadillo">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SansFamille>
+
+<SansFamille rdf:about="#gar">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SansFamille>
+
+<SansFamille rdf:about="#mantis">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SansFamille>
+
+<SansFamille rdf:about="#albatross">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SansFamille>
+
+<SansFamille rdf:about="#gyromitra">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SansFamille>
+
 <asian_elephant rdf:about="#indian_elephant">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </asian_elephant>
+
+<SansFamille rdf:about="#hartebeest">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SansFamille>
+
+<SansFamille rdf:about="#hippopotamus">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SansFamille>
+
+<SansFamille rdf:about="#lynx">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SansFamille>
+
+<SansFamille rdf:about="#fox_squirrel">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SansFamille>
+
+<SansFamille rdf:about="#rock_beauty">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SansFamille>
+
+<SansFamille rdf:about="#box_turtle">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SansFamille>
+
+<SansFamille rdf:about="#kit_fox">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SansFamille>
+
+<SansFamille rdf:about="#tench">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SansFamille>
+
+<SansFamille rdf:about="#red_fox">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SansFamille>
+
+<SansFamille rdf:about="#sea_urchin">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SansFamille>
+
+<SansFamille rdf:about="#dowitcher">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SansFamille>
+
+<SansFamille rdf:about="#junco">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SansFamille>
+
+<SansFamille rdf:about="#echidna">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SansFamille>
+
+<SansFamille rdf:about="#wolf">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SansFamille>
+
+<SansFamille rdf:about="#bear">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SansFamille>
 
 <Image rdf:about="#n01443537_8662">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#goldfish"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
 </Image>
-
-<SansFamille rdf:about="#goldfish">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-</SansFamille>
 
 <Image rdf:about="#n01443537_8693">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -570,10 +897,6 @@
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
 </Image>
 
-<SansFamille rdf:about="#great_white_shark">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-</SansFamille>
-
 <Image rdf:about="#n01484850_875">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#great_white_shark"/>
@@ -969,10 +1292,6 @@
   <Contient rdf:resource="#indigo_bunting"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
 </Image>
-
-<SansFamille rdf:about="#indigo_bunting">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-</SansFamille>
 
 <Image rdf:about="#n01537544_9098">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -1370,10 +1689,6 @@
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
 </Image>
 
-<SansFamille rdf:about="#bald_eagle">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-</SansFamille>
-
 <Image rdf:about="#n01614925_9155">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#bald_eagle"/>
@@ -1770,10 +2085,6 @@
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
 </Image>
 
-<SansFamille rdf:about="#wolf">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-</SansFamille>
-
 <Image rdf:about="#n02114367_8910">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#wolf"/>
@@ -2166,519 +2477,1132 @@
 
 <Image rdf:about="#n02133161_893">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Contient rdf:resource="#bear"/>
+  <Contient rdf:resource="#sloth_bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
 </Image>
 
 <Image rdf:about="#n02133161_894">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Contient rdf:resource="#bear"/>
+  <Contient rdf:resource="#sloth_bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
 </Image>
 
 <Image rdf:about="#n02133161_8942">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Contient rdf:resource="#bear"/>
+  <Contient rdf:resource="#sloth_bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
 </Image>
 
 <Image rdf:about="#n02133161_8947">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Contient rdf:resource="#bear"/>
+  <Contient rdf:resource="#sloth_bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
 </Image>
 
 <Image rdf:about="#n02133161_895">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Contient rdf:resource="#bear"/>
+  <Contient rdf:resource="#sloth_bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
 </Image>
 
 <Image rdf:about="#n02133161_897">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Contient rdf:resource="#bear"/>
+  <Contient rdf:resource="#sloth_bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
 </Image>
 
 <Image rdf:about="#n02133161_8982">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Contient rdf:resource="#bear"/>
+  <Contient rdf:resource="#sloth_bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
 </Image>
 
 <Image rdf:about="#n02133161_9013">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Contient rdf:resource="#bear"/>
+  <Contient rdf:resource="#sloth_bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
 </Image>
 
 <Image rdf:about="#n02133161_903">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Contient rdf:resource="#bear"/>
+  <Contient rdf:resource="#sloth_bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
 </Image>
 
 <Image rdf:about="#n02133161_9037">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Contient rdf:resource="#bear"/>
+  <Contient rdf:resource="#sloth_bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
 </Image>
 
 <Image rdf:about="#n02133161_9039">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Contient rdf:resource="#bear"/>
+  <Contient rdf:resource="#sloth_bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
 </Image>
 
 <Image rdf:about="#n02133161_9088">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Contient rdf:resource="#bear"/>
+  <Contient rdf:resource="#sloth_bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
 </Image>
 
 <Image rdf:about="#n02133161_9098">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Contient rdf:resource="#bear"/>
+  <Contient rdf:resource="#sloth_bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
 </Image>
 
 <Image rdf:about="#n02133161_911">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Contient rdf:resource="#bear"/>
+  <Contient rdf:resource="#sloth_bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
 </Image>
 
 <Image rdf:about="#n02133161_9134">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Contient rdf:resource="#bear"/>
+  <Contient rdf:resource="#sloth_bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
 </Image>
 
 <Image rdf:about="#n02133161_9138">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Contient rdf:resource="#bear"/>
+  <Contient rdf:resource="#sloth_bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
 </Image>
 
 <Image rdf:about="#n02133161_9142">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Contient rdf:resource="#bear"/>
+  <Contient rdf:resource="#sloth_bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
 </Image>
 
 <Image rdf:about="#n02133161_92">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Contient rdf:resource="#bear"/>
+  <Contient rdf:resource="#sloth_bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
 </Image>
 
 <Image rdf:about="#n02133161_928">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Contient rdf:resource="#bear"/>
+  <Contient rdf:resource="#sloth_bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
 </Image>
 
 <Image rdf:about="#n02133161_9364">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Contient rdf:resource="#bear"/>
+  <Contient rdf:resource="#sloth_bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
 </Image>
 
 <Image rdf:about="#n02133161_9371">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Contient rdf:resource="#bear"/>
+  <Contient rdf:resource="#sloth_bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
 </Image>
 
 <Image rdf:about="#n02133161_9387">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Contient rdf:resource="#bear"/>
+  <Contient rdf:resource="#sloth_bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
 </Image>
 
 <Image rdf:about="#n02133161_939">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Contient rdf:resource="#bear"/>
+  <Contient rdf:resource="#sloth_bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
 </Image>
 
 <Image rdf:about="#n02133161_941">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Contient rdf:resource="#bear"/>
+  <Contient rdf:resource="#sloth_bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
 </Image>
 
 <Image rdf:about="#n02133161_9424">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Contient rdf:resource="#bear"/>
+  <Contient rdf:resource="#sloth_bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
 </Image>
 
 <Image rdf:about="#n02133161_9434">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Contient rdf:resource="#bear"/>
+  <Contient rdf:resource="#sloth_bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
 </Image>
 
 <Image rdf:about="#n02133161_9449">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Contient rdf:resource="#bear"/>
+  <Contient rdf:resource="#sloth_bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
 </Image>
 
 <Image rdf:about="#n02133161_9463">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Contient rdf:resource="#bear"/>
+  <Contient rdf:resource="#sloth_bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
 </Image>
 
 <Image rdf:about="#n02133161_948">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Contient rdf:resource="#bear"/>
+  <Contient rdf:resource="#sloth_bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
 </Image>
 
 <Image rdf:about="#n02133161_9490">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Contient rdf:resource="#bear"/>
+  <Contient rdf:resource="#sloth_bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
 </Image>
 
 <Image rdf:about="#n02133161_953">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Contient rdf:resource="#bear"/>
+  <Contient rdf:resource="#sloth_bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
 </Image>
 
 <Image rdf:about="#n02133161_955">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Contient rdf:resource="#bear"/>
+  <Contient rdf:resource="#sloth_bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
 </Image>
 
 <Image rdf:about="#n02133161_958">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Contient rdf:resource="#bear"/>
+  <Contient rdf:resource="#sloth_bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
 </Image>
 
 <Image rdf:about="#n02133161_9583">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Contient rdf:resource="#bear"/>
+  <Contient rdf:resource="#sloth_bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
 </Image>
 
 <Image rdf:about="#n02133161_959">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Contient rdf:resource="#bear"/>
+  <Contient rdf:resource="#sloth_bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
 </Image>
 
 <Image rdf:about="#n02133161_9600">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Contient rdf:resource="#bear"/>
+  <Contient rdf:resource="#sloth_bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
 </Image>
 
 <Image rdf:about="#n02133161_9642">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Contient rdf:resource="#bear"/>
+  <Contient rdf:resource="#sloth_bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
 </Image>
 
 <Image rdf:about="#n02133161_9643">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Contient rdf:resource="#bear"/>
+  <Contient rdf:resource="#sloth_bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
 </Image>
 
 <Image rdf:about="#n02133161_9669">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Contient rdf:resource="#bear"/>
+  <Contient rdf:resource="#sloth_bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
 </Image>
 
 <Image rdf:about="#n02133161_9672">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Contient rdf:resource="#bear"/>
+  <Contient rdf:resource="#sloth_bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
 </Image>
 
 <Image rdf:about="#n02133161_968">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Contient rdf:resource="#bear"/>
+  <Contient rdf:resource="#sloth_bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
 </Image>
 
 <Image rdf:about="#n02133161_97">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Contient rdf:resource="#bear"/>
+  <Contient rdf:resource="#sloth_bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
 </Image>
 
 <Image rdf:about="#n02133161_9724">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Contient rdf:resource="#bear"/>
+  <Contient rdf:resource="#sloth_bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
 </Image>
 
 <Image rdf:about="#n02133161_9746">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Contient rdf:resource="#bear"/>
+  <Contient rdf:resource="#sloth_bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
 </Image>
 
 <Image rdf:about="#n02133161_975">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Contient rdf:resource="#bear"/>
+  <Contient rdf:resource="#sloth_bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
 </Image>
 
 <Image rdf:about="#n02133161_976">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Contient rdf:resource="#bear"/>
+  <Contient rdf:resource="#sloth_bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
 </Image>
 
 <Image rdf:about="#n02133161_9783">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Contient rdf:resource="#bear"/>
+  <Contient rdf:resource="#sloth_bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
 </Image>
 
 <Image rdf:about="#n02133161_9786">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Contient rdf:resource="#bear"/>
+  <Contient rdf:resource="#sloth_bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
 </Image>
 
 <Image rdf:about="#n02133161_9809">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Contient rdf:resource="#bear"/>
+  <Contient rdf:resource="#sloth_bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
 </Image>
 
 <Image rdf:about="#n02133161_9816">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Contient rdf:resource="#bear"/>
+  <Contient rdf:resource="#sloth_bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
 </Image>
 
 <Image rdf:about="#n02133161_982">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Contient rdf:resource="#bear"/>
+  <Contient rdf:resource="#sloth_bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
 </Image>
 
 <Image rdf:about="#n02133161_9827">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Contient rdf:resource="#bear"/>
+  <Contient rdf:resource="#sloth_bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
 </Image>
 
 <Image rdf:about="#n02133161_9844">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Contient rdf:resource="#bear"/>
+  <Contient rdf:resource="#sloth_bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
 </Image>
 
 <Image rdf:about="#n02133161_9863">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Contient rdf:resource="#bear"/>
+  <Contient rdf:resource="#sloth_bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
 </Image>
 
 <Image rdf:about="#n02133161_987">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Contient rdf:resource="#bear"/>
+  <Contient rdf:resource="#sloth_bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
 </Image>
 
 <Image rdf:about="#n02133161_9888">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Contient rdf:resource="#bear"/>
+  <Contient rdf:resource="#sloth_bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
 </Image>
 
 <Image rdf:about="#n02133161_989">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Contient rdf:resource="#bear"/>
+  <Contient rdf:resource="#sloth_bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
 </Image>
 
 <Image rdf:about="#n02133161_991">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Contient rdf:resource="#bear"/>
+  <Contient rdf:resource="#sloth_bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
 </Image>
 
 <Image rdf:about="#n02133161_9937">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Contient rdf:resource="#bear"/>
+  <Contient rdf:resource="#sloth_bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
 </Image>
 
 <Image rdf:about="#n02133161_9949">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Contient rdf:resource="#bear"/>
+  <Contient rdf:resource="#sloth_bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
 </Image>
 
 <Image rdf:about="#n02133161_9950">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Contient rdf:resource="#bear"/>
+  <Contient rdf:resource="#sloth_bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
 </Image>
 
 <Image rdf:about="#n02133161_9953">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Contient rdf:resource="#bear"/>
+  <Contient rdf:resource="#sloth_bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
 </Image>
 
 <Image rdf:about="#n02133161_9960">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Contient rdf:resource="#bear"/>
+  <Contient rdf:resource="#sloth_bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
 </Image>
 
 <Image rdf:about="#n02133161_9962">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Contient rdf:resource="#bear"/>
+  <Contient rdf:resource="#sloth_bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
 </Image>
 
 <Image rdf:about="#n02133161_9973">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Contient rdf:resource="#bear"/>
+  <Contient rdf:resource="#sloth_bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
 </Image>
 
 <Image rdf:about="#n02133161_9978">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Contient rdf:resource="#bear"/>
+  <Contient rdf:resource="#sloth_bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
 </Image>
 
-<owl:AllDisjointClasses>
-  <owl:members rdf:parseType="Collection">
-    <rdf:Description rdf:about="#asian_elephant"/>
-    <rdf:Description rdf:about="#bear"/>
-    <rdf:Description rdf:about="#big_cat"/>
-    <rdf:Description rdf:about="#electric_fish"/>
-    <rdf:Description rdf:about="#elephant"/>
-    <rdf:Description rdf:about="#penguin"/>
-    <rdf:Description rdf:about="#vegetable"/>
-  </owl:members>
-</owl:AllDisjointClasses>
+<owl:AllDifferent>
+  <owl:distinctMembers>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal_class</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bear_class</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mammal</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">elephant</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">asian_elephant</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">felidae</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">big_cat</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fish</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">electric_fish</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">food_ingredient</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vegetable</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">penguin</rdf:first>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+  </owl:distinctMembers>
+</owl:AllDifferent>
 
-<owl:AllDisjointClasses>
-  <owl:members rdf:parseType="Collection">
-    <rdf:Description rdf:about="#animal"/>
-    <rdf:Description rdf:about="#elephant"/>
-    <rdf:Description rdf:about="#felidae"/>
-    <rdf:Description rdf:about="#fish"/>
-    <rdf:Description rdf:about="#food_ingredient"/>
-    <rdf:Description rdf:about="#mammal"/>
-    <rdf:Description rdf:about="#penguin"/>
-  </owl:members>
-</owl:AllDisjointClasses>
+<owl:AllDifferent>
+  <owl:distinctMembers>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal_class</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bear_class</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mammal</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">elephant</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">asian_elephant</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">felidae</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">big_cat</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fish</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">electric_fish</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">penguin</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">food_ingredient</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vegetable</rdf:first>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+  </owl:distinctMembers>
+</owl:AllDifferent>
 
-<owl:AllDisjointClasses>
-  <owl:members rdf:parseType="Collection">
-    <rdf:Description rdf:about="#asian_elephant"/>
-    <rdf:Description rdf:about="#bear"/>
-    <rdf:Description rdf:about="#big_cat"/>
-    <rdf:Description rdf:about="#electric_fish"/>
-    <rdf:Description rdf:about="#elephant"/>
-    <rdf:Description rdf:about="#penguin"/>
-    <rdf:Description rdf:about="#vegetable"/>
-  </owl:members>
-</owl:AllDisjointClasses>
+<owl:AllDifferent>
+  <owl:distinctMembers>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal_class</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bear_class</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mammal</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">elephant</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">asian_elephant</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">felidae</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">big_cat</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fish</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">electric_fish</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">penguin</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">food_ingredient</rdf:first>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+  </owl:distinctMembers>
+</owl:AllDifferent>
 
-<owl:AllDisjointClasses>
-  <owl:members rdf:parseType="Collection">
-    <rdf:Description rdf:about="#animal"/>
-    <rdf:Description rdf:about="#elephant"/>
-    <rdf:Description rdf:about="#felidae"/>
-    <rdf:Description rdf:about="#fish"/>
-    <rdf:Description rdf:about="#food_ingredient"/>
-    <rdf:Description rdf:about="#mammal"/>
-    <rdf:Description rdf:about="#penguin"/>
-  </owl:members>
-</owl:AllDisjointClasses>
+<owl:AllDifferent>
+  <owl:distinctMembers>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal_class</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bear_class</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mammal</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">elephant</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">asian_elephant</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">felidae</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">big_cat</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">food_ingredient</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vegetable</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">penguin</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fish</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">electric_fish</rdf:first>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+  </owl:distinctMembers>
+</owl:AllDifferent>
 
-<owl:AllDisjointClasses>
-  <owl:members rdf:parseType="Collection">
-    <rdf:Description rdf:about="#asian_elephant"/>
-    <rdf:Description rdf:about="#bear"/>
-    <rdf:Description rdf:about="#big_cat"/>
-    <rdf:Description rdf:about="#electric_fish"/>
-    <rdf:Description rdf:about="#elephant"/>
-    <rdf:Description rdf:about="#penguin"/>
-    <rdf:Description rdf:about="#vegetable"/>
-  </owl:members>
-</owl:AllDisjointClasses>
+<owl:AllDifferent>
+  <owl:distinctMembers>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal_class</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bear_class</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mammal</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">elephant</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">asian_elephant</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">felidae</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">big_cat</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">food_ingredient</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vegetable</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">penguin</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fish</rdf:first>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+  </owl:distinctMembers>
+</owl:AllDifferent>
 
-<owl:AllDisjointClasses>
-  <owl:members rdf:parseType="Collection">
-    <rdf:Description rdf:about="#animal"/>
-    <rdf:Description rdf:about="#elephant"/>
-    <rdf:Description rdf:about="#felidae"/>
-    <rdf:Description rdf:about="#fish"/>
-    <rdf:Description rdf:about="#food_ingredient"/>
-    <rdf:Description rdf:about="#mammal"/>
-    <rdf:Description rdf:about="#penguin"/>
-  </owl:members>
-</owl:AllDisjointClasses>
+<owl:AllDifferent>
+  <owl:distinctMembers>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal_class</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bear_class</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mammal</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">elephant</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">asian_elephant</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fish</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">electric_fish</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">food_ingredient</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vegetable</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">penguin</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">felidae</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">big_cat</rdf:first>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+  </owl:distinctMembers>
+</owl:AllDifferent>
 
-<owl:AllDisjointClasses>
-  <owl:members rdf:parseType="Collection">
-    <rdf:Description rdf:about="#asian_elephant"/>
-    <rdf:Description rdf:about="#bear"/>
-    <rdf:Description rdf:about="#big_cat"/>
-    <rdf:Description rdf:about="#electric_fish"/>
-    <rdf:Description rdf:about="#elephant"/>
-    <rdf:Description rdf:about="#penguin"/>
-    <rdf:Description rdf:about="#vegetable"/>
-  </owl:members>
-</owl:AllDisjointClasses>
+<owl:AllDifferent>
+  <owl:distinctMembers>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal_class</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bear_class</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mammal</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">elephant</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">asian_elephant</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fish</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">electric_fish</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">food_ingredient</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vegetable</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">penguin</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">felidae</rdf:first>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+  </owl:distinctMembers>
+</owl:AllDifferent>
 
-<owl:AllDisjointClasses>
-  <owl:members rdf:parseType="Collection">
-    <rdf:Description rdf:about="#animal"/>
-    <rdf:Description rdf:about="#elephant"/>
-    <rdf:Description rdf:about="#felidae"/>
-    <rdf:Description rdf:about="#fish"/>
-    <rdf:Description rdf:about="#food_ingredient"/>
-    <rdf:Description rdf:about="#mammal"/>
-    <rdf:Description rdf:about="#penguin"/>
-  </owl:members>
-</owl:AllDisjointClasses>
+<owl:AllDifferent>
+  <owl:distinctMembers>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal_class</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bear_class</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">felidae</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">big_cat</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fish</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">electric_fish</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">food_ingredient</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vegetable</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">penguin</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mammal</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">elephant</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">asian_elephant</rdf:first>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+  </owl:distinctMembers>
+</owl:AllDifferent>
 
-<owl:AllDisjointClasses>
-  <owl:members rdf:parseType="Collection">
-    <rdf:Description rdf:about="#asian_elephant"/>
-    <rdf:Description rdf:about="#bear"/>
-    <rdf:Description rdf:about="#big_cat"/>
-    <rdf:Description rdf:about="#electric_fish"/>
-    <rdf:Description rdf:about="#elephant"/>
-    <rdf:Description rdf:about="#penguin"/>
-    <rdf:Description rdf:about="#vegetable"/>
-  </owl:members>
-</owl:AllDisjointClasses>
+<owl:AllDifferent>
+  <owl:distinctMembers>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal_class</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bear_class</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">felidae</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">big_cat</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fish</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">electric_fish</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">food_ingredient</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vegetable</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">penguin</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mammal</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">elephant</rdf:first>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+  </owl:distinctMembers>
+</owl:AllDifferent>
 
-<owl:AllDisjointClasses>
-  <owl:members rdf:parseType="Collection">
-    <rdf:Description rdf:about="#animal"/>
-    <rdf:Description rdf:about="#elephant"/>
-    <rdf:Description rdf:about="#felidae"/>
-    <rdf:Description rdf:about="#fish"/>
-    <rdf:Description rdf:about="#food_ingredient"/>
-    <rdf:Description rdf:about="#mammal"/>
-    <rdf:Description rdf:about="#penguin"/>
-  </owl:members>
-</owl:AllDisjointClasses>
+<owl:AllDifferent>
+  <owl:distinctMembers>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal_class</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bear_class</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">felidae</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">big_cat</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fish</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">electric_fish</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">food_ingredient</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vegetable</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">penguin</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mammal</rdf:first>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+  </owl:distinctMembers>
+</owl:AllDifferent>
+
+<owl:AllDifferent>
+  <owl:distinctMembers>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mammal</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">elephant</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">asian_elephant</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">felidae</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">big_cat</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fish</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">electric_fish</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">food_ingredient</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vegetable</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">penguin</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal_class</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bear_class</rdf:first>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+  </owl:distinctMembers>
+</owl:AllDifferent>
+
+<owl:AllDifferent>
+  <owl:distinctMembers>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mammal</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">elephant</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">asian_elephant</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">felidae</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">big_cat</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fish</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">electric_fish</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">food_ingredient</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vegetable</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">penguin</rdf:first>
+    <rdf:rest>
+    <rdf:Description>
+  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal_class</rdf:first>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+    </rdf:rest>
+    </rdf:Description>
+  </owl:distinctMembers>
+</owl:AllDifferent>
 
 
 </rdf:RDF>
