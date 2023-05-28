@@ -24,8 +24,8 @@ Q177932,rapeseed,0,0,n11879895
 Q18099,bison,0,0,n02410509
 Q1813704,magpie,0,0,n01582220
 Q181871,sturgeon,0,0,n02640242
-Q182209,king penguin,penguin-1,penguin-2,n02056570
-Q185038,african elephant,elephant-1,mammal,n02504458
+Q182209,king penguin,penguin,penguin,n02056570
+Q185038,african elephant,elephant,mammal,n02504458
 Q185167,three-toed sloth,0,0,n02457408
 Q185939,gibbon,0,0,n02483362
 Q1861297,king crab,0,0,n01981276
@@ -78,7 +78,7 @@ Q506144,gar,0,0,n02641379
 Q507307,mantis,0,0,n02236044
 Q55805,albatross,0,0,n02058221
 Q580989,gyromitra,0,0,n13037406
-Q591305,indian elephant,asian elephant,elephant-2,n02504013
+Q591305,indian elephant,asian elephant,elephant,n02504013
 Q622880,hartebeest,0,0,n02422106
 Q629680,hippopotamus,0,0,n02398521
 Q677014,lynx,0,0,n02127052
