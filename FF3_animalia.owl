@@ -3,10 +3,10 @@
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
          xmlns:owl="http://www.w3.org/2002/07/owl#"
-         xml:base="http://example651111gfhnjggfhgfdgfnhgf81.com/animalia.owl"
-         xmlns="http://example651111gfhnjggfhgfdgfnhgf81.com/animalia.owl#">
+         xml:base="http://example651141dfdvfg81.com/animalia.owl"
+         xmlns="http://example651141dfdvfg81.com/animalia.owl#">
 
-<owl:Ontology rdf:about="http://example651111gfhnjggfhgfdgfnhgf81.com/animalia.owl"/>
+<owl:Ontology rdf:about="http://example651141dfdvfg81.com/animalia.owl"/>
 
 <owl:ObjectProperty rdf:about="#Contient">
   <rdfs:domain rdf:resource="#Image"/>
@@ -31,56 +31,49 @@
   <rdfs:subClassOf rdf:resource="#Animalia"/>
 </owl:Class>
 
-<owl:Class rdf:about="#elephant-2">
-  <rdfs:subClassOf rdf:resource="#Animalia"/>
-</owl:Class>
-
-<owl:Class rdf:about="#felidae">
-  <rdfs:subClassOf rdf:resource="#Animalia"/>
-</owl:Class>
-
-<owl:Class rdf:about="#fish">
-  <rdfs:subClassOf rdf:resource="#Animalia"/>
-</owl:Class>
-
-<owl:Class rdf:about="#food_ingredient">
-  <rdfs:subClassOf rdf:resource="#Animalia"/>
+<owl:Class rdf:about="#bear">
+  <rdfs:subClassOf rdf:resource="#animal"/>
+  <rdf:type rdf:resource="#SansFamille"/>
 </owl:Class>
 
 <owl:Class rdf:about="#mammal">
   <rdfs:subClassOf rdf:resource="#Animalia"/>
 </owl:Class>
 
-<owl:Class rdf:about="#penguin-2">
-  <rdfs:subClassOf rdf:resource="#Animalia"/>
+<owl:Class rdf:about="#elephant">
+  <rdfs:subClassOf rdf:resource="#mammal"/>
 </owl:Class>
 
 <owl:Class rdf:about="#asian_elephant">
-  <rdfs:subClassOf rdf:resource="#elephant-2"/>
+  <rdfs:subClassOf rdf:resource="#elephant"/>
 </owl:Class>
 
-<owl:Class rdf:about="#bear">
-  <rdfs:subClassOf rdf:resource="#animal"/>
+<owl:Class rdf:about="#felidae">
+  <rdfs:subClassOf rdf:resource="#Animalia"/>
 </owl:Class>
 
 <owl:Class rdf:about="#big_cat">
   <rdfs:subClassOf rdf:resource="#felidae"/>
 </owl:Class>
 
+<owl:Class rdf:about="#fish">
+  <rdfs:subClassOf rdf:resource="#Animalia"/>
+</owl:Class>
+
 <owl:Class rdf:about="#electric_fish">
   <rdfs:subClassOf rdf:resource="#fish"/>
 </owl:Class>
 
-<owl:Class rdf:about="#elephant-1">
-  <rdfs:subClassOf rdf:resource="#mammal"/>
-</owl:Class>
-
-<owl:Class rdf:about="#penguin-1">
-  <rdfs:subClassOf rdf:resource="#penguin-2"/>
+<owl:Class rdf:about="#food_ingredient">
+  <rdfs:subClassOf rdf:resource="#Animalia"/>
 </owl:Class>
 
 <owl:Class rdf:about="#vegetable">
   <rdfs:subClassOf rdf:resource="#food_ingredient"/>
+</owl:Class>
+
+<owl:Class rdf:about="#penguin">
+  <rdfs:subClassOf rdf:resource="#Animalia"/>
 </owl:Class>
 
 <owl:Class rdf:about="#SansFamille">
@@ -131,13 +124,13 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </big_cat>
 
-<penguin-1 rdf:about="#king_penguin">
+<penguin rdf:about="#king_penguin">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-</penguin-1>
+</penguin>
 
-<elephant-1 rdf:about="#african_elephant">
+<elephant rdf:about="#african_elephant">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-</elephant-1>
+</elephant>
 
 <big_cat rdf:about="#cheetah">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -171,15 +164,2399 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </asian_elephant>
 
-<Image rdf:about="#n10_01">
+<Image rdf:about="#n01443537_8662">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Contient rdf:resource="#lion"/>
+  <Contient rdf:resource="#goldfish"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
 </Image>
 
-<Image rdf:about="#n20_02">
+<SansFamille rdf:about="#goldfish">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Contient rdf:resource="#lion"/>
+</SansFamille>
+
+<Image rdf:about="#n01443537_8693">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#goldfish"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01443537_8719">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#goldfish"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
+</Image>
+
+<Image rdf:about="#n01443537_875">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#goldfish"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01443537_8787">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#goldfish"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01443537_8789">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#goldfish"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01443537_8818">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#goldfish"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01443537_883">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#goldfish"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01443537_8841">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#goldfish"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01443537_8868">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#goldfish"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01443537_888">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#goldfish"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01443537_891">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#goldfish"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01443537_8938">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#goldfish"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01443537_894">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#goldfish"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01443537_896">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#goldfish"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01443537_8989">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#goldfish"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01443537_9048">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#goldfish"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01443537_9069">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#goldfish"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01443537_9106">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#goldfish"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01443537_9160">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#goldfish"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01443537_9161">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#goldfish"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01443537_9204">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#goldfish"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01443537_9265">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#goldfish"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
+</Image>
+
+<Image rdf:about="#n01443537_9315">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#goldfish"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01443537_9338">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#goldfish"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01443537_9347">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#goldfish"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01443537_9364">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#goldfish"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01443537_9438">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#goldfish"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01443537_9444">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#goldfish"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01443537_9475">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#goldfish"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01443537_9483">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#goldfish"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01443537_9500">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#goldfish"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01443537_951">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#goldfish"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01443537_9529">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#goldfish"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01443537_9531">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#goldfish"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01443537_9534">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#goldfish"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01443537_9552">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#goldfish"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01443537_9558">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#goldfish"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01443537_957">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#goldfish"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01443537_9587">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#goldfish"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01443537_9603">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#goldfish"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01443537_962">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#goldfish"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01443537_9621">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#goldfish"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01443537_963">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#goldfish"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01443537_9651">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#goldfish"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01443537_9661">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#goldfish"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01443537_9703">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#goldfish"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01443537_9712">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#goldfish"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01443537_9740">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#goldfish"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01443537_9743">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#goldfish"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01443537_9744">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#goldfish"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01443537_9748">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#goldfish"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01443537_9753">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#goldfish"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
+</Image>
+
+<Image rdf:about="#n01443537_9799">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#goldfish"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01443537_9812">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#goldfish"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01443537_9816">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#goldfish"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01443537_9836">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#goldfish"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01443537_9841">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#goldfish"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
+</Image>
+
+<Image rdf:about="#n01443537_9869">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#goldfish"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
+</Image>
+
+<Image rdf:about="#n01443537_9871">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#goldfish"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01443537_9877">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#goldfish"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01443537_9930">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#goldfish"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01443537_9945">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#goldfish"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01443537_9946">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#goldfish"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
+</Image>
+
+<Image rdf:about="#n01443537_9961">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#goldfish"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01443537_9977">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#goldfish"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
+</Image>
+
+<Image rdf:about="#n01484850_8749">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#great_white_shark"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
+</Image>
+
+<SansFamille rdf:about="#great_white_shark">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SansFamille>
+
+<Image rdf:about="#n01484850_875">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#great_white_shark"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
+</Image>
+
+<Image rdf:about="#n01484850_8780">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#great_white_shark"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
+</Image>
+
+<Image rdf:about="#n01484850_8788">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#great_white_shark"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01484850_8792">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#great_white_shark"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01484850_8799">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#great_white_shark"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01484850_8842">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#great_white_shark"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01484850_8845">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#great_white_shark"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01484850_8849">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#great_white_shark"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01484850_8851">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#great_white_shark"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01484850_8866">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#great_white_shark"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
+</Image>
+
+<Image rdf:about="#n01484850_8886">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#great_white_shark"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01484850_8911">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#great_white_shark"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01484850_8943">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#great_white_shark"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01484850_8947">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#great_white_shark"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01484850_8956">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#great_white_shark"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01484850_8967">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#great_white_shark"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
+</Image>
+
+<Image rdf:about="#n01484850_8979">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#great_white_shark"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01484850_8983">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#great_white_shark"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01484850_899">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#great_white_shark"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01484850_8994">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#great_white_shark"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01484850_9001">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#great_white_shark"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01484850_9006">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#great_white_shark"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01484850_9008">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#great_white_shark"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01484850_9011">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#great_white_shark"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
+</Image>
+
+<Image rdf:about="#n01484850_9040">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#great_white_shark"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01484850_9053">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#great_white_shark"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01484850_9063">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#great_white_shark"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01484850_9071">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#great_white_shark"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01484850_9078">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#great_white_shark"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01484850_9174">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#great_white_shark"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
+</Image>
+
+<Image rdf:about="#n01484850_9193">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#great_white_shark"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01484850_9204">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#great_white_shark"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01484850_927">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#great_white_shark"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01484850_931">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#great_white_shark"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01484850_9311">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#great_white_shark"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01484850_936">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#great_white_shark"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01484850_9386">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#great_white_shark"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01484850_9419">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#great_white_shark"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01484850_9424">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#great_white_shark"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01484850_9425">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#great_white_shark"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
+</Image>
+
+<Image rdf:about="#n01484850_9473">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#great_white_shark"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01484850_9474">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#great_white_shark"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01484850_9480">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#great_white_shark"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01484850_9498">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#great_white_shark"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01484850_95">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#great_white_shark"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01484850_9534">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#great_white_shark"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01484850_9549">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#great_white_shark"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01484850_9558">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#great_white_shark"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01484850_9617">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#great_white_shark"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01484850_9622">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#great_white_shark"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01484850_9628">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#great_white_shark"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01484850_9667">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#great_white_shark"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01484850_9680">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#great_white_shark"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01484850_9681">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#great_white_shark"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01484850_9684">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#great_white_shark"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01484850_9690">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#great_white_shark"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01484850_9733">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#great_white_shark"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01484850_977">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#great_white_shark"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01484850_9770">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#great_white_shark"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01484850_9813">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#great_white_shark"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01484850_9843">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#great_white_shark"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01484850_9905">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#great_white_shark"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01484850_9930">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#great_white_shark"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01484850_9951">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#great_white_shark"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01484850_9995">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#great_white_shark"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01537544_9097">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#indigo_bunting"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<SansFamille rdf:about="#indigo_bunting">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SansFamille>
+
+<Image rdf:about="#n01537544_9098">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#indigo_bunting"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01537544_9132">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#indigo_bunting"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01537544_9138">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#indigo_bunting"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01537544_9162">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#indigo_bunting"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01537544_9179">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#indigo_bunting"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01537544_9184">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#indigo_bunting"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01537544_9188">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#indigo_bunting"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01537544_9198">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#indigo_bunting"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01537544_9202">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#indigo_bunting"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01537544_9206">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#indigo_bunting"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
+</Image>
+
+<Image rdf:about="#n01537544_9213">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#indigo_bunting"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01537544_9223">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#indigo_bunting"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01537544_9234">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#indigo_bunting"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01537544_9247">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#indigo_bunting"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01537544_9249">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#indigo_bunting"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01537544_9345">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#indigo_bunting"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01537544_9379">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#indigo_bunting"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01537544_938">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#indigo_bunting"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01537544_9384">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#indigo_bunting"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01537544_9387">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#indigo_bunting"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01537544_9426">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#indigo_bunting"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01537544_9431">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#indigo_bunting"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01537544_9440">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#indigo_bunting"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01537544_9464">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#indigo_bunting"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01537544_9472">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#indigo_bunting"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01537544_950">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#indigo_bunting"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01537544_9506">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#indigo_bunting"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01537544_9528">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#indigo_bunting"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01537544_9538">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#indigo_bunting"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
+</Image>
+
+<Image rdf:about="#n01537544_9540">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#indigo_bunting"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01537544_9541">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#indigo_bunting"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01537544_9542">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#indigo_bunting"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01537544_9556">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#indigo_bunting"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01537544_956">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#indigo_bunting"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01537544_9569">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#indigo_bunting"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01537544_9580">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#indigo_bunting"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01537544_9599">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#indigo_bunting"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
+</Image>
+
+<Image rdf:about="#n01537544_9601">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#indigo_bunting"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01537544_9625">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#indigo_bunting"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01537544_9663">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#indigo_bunting"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01537544_9671">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#indigo_bunting"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01537544_9683">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#indigo_bunting"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01537544_969">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#indigo_bunting"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01537544_9736">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#indigo_bunting"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01537544_9745">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#indigo_bunting"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01537544_9780">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#indigo_bunting"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01537544_9796">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#indigo_bunting"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01537544_98">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#indigo_bunting"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01537544_9801">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#indigo_bunting"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01537544_9805">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#indigo_bunting"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01537544_9815">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#indigo_bunting"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01537544_9816">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#indigo_bunting"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01537544_9823">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#indigo_bunting"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01537544_9830">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#indigo_bunting"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01537544_9832">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#indigo_bunting"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01537544_9851">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#indigo_bunting"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01537544_9881">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#indigo_bunting"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01537544_9887">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#indigo_bunting"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01537544_9892">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#indigo_bunting"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01537544_99">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#indigo_bunting"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01537544_9922">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#indigo_bunting"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01537544_9944">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#indigo_bunting"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01537544_9949">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#indigo_bunting"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01537544_9964">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#indigo_bunting"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01537544_9994">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#indigo_bunting"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01614925_9149">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bald_eagle"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<SansFamille rdf:about="#bald_eagle">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SansFamille>
+
+<Image rdf:about="#n01614925_9155">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bald_eagle"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01614925_9157">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bald_eagle"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
+</Image>
+
+<Image rdf:about="#n01614925_9158">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bald_eagle"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01614925_9160">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bald_eagle"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01614925_9167">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bald_eagle"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
+</Image>
+
+<Image rdf:about="#n01614925_9184">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bald_eagle"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01614925_9190">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bald_eagle"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01614925_920">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bald_eagle"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
+</Image>
+
+<Image rdf:about="#n01614925_9220">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bald_eagle"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
+</Image>
+
+<Image rdf:about="#n01614925_9221">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bald_eagle"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
+</Image>
+
+<Image rdf:about="#n01614925_9248">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bald_eagle"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
+</Image>
+
+<Image rdf:about="#n01614925_9255">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bald_eagle"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01614925_9259">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bald_eagle"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01614925_9265">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bald_eagle"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
+</Image>
+
+<Image rdf:about="#n01614925_9295">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bald_eagle"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01614925_9303">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bald_eagle"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
+</Image>
+
+<Image rdf:about="#n01614925_9309">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bald_eagle"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01614925_9331">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bald_eagle"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01614925_934">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bald_eagle"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01614925_9349">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bald_eagle"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
+</Image>
+
+<Image rdf:about="#n01614925_9351">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bald_eagle"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01614925_9386">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bald_eagle"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
+</Image>
+
+<Image rdf:about="#n01614925_9394">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bald_eagle"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01614925_9395">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bald_eagle"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01614925_9396">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bald_eagle"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01614925_9400">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bald_eagle"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01614925_9437">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bald_eagle"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01614925_9438">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bald_eagle"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
+</Image>
+
+<Image rdf:about="#n01614925_9450">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bald_eagle"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01614925_9461">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bald_eagle"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01614925_9471">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bald_eagle"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
+</Image>
+
+<Image rdf:about="#n01614925_9474">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bald_eagle"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01614925_9546">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bald_eagle"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01614925_9570">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bald_eagle"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01614925_9577">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bald_eagle"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01614925_9594">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bald_eagle"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01614925_9600">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bald_eagle"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01614925_9624">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bald_eagle"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01614925_9631">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bald_eagle"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01614925_9638">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bald_eagle"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01614925_9657">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bald_eagle"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01614925_9675">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bald_eagle"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01614925_9687">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bald_eagle"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01614925_9689">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bald_eagle"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01614925_9697">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bald_eagle"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01614925_9700">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bald_eagle"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01614925_9720">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bald_eagle"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01614925_9730">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bald_eagle"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01614925_9733">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bald_eagle"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01614925_9736">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bald_eagle"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01614925_9759">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bald_eagle"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01614925_9762">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bald_eagle"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01614925_9763">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bald_eagle"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01614925_9764">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bald_eagle"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01614925_9799">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bald_eagle"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01614925_9802">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bald_eagle"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01614925_9840">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bald_eagle"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01614925_9843">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bald_eagle"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01614925_986">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bald_eagle"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01614925_9861">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bald_eagle"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
+</Image>
+
+<Image rdf:about="#n01614925_9901">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bald_eagle"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01614925_9920">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bald_eagle"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01614925_9967">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bald_eagle"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01614925_9970">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bald_eagle"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n01614925_9987">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bald_eagle"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02114367_8883">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#wolf"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
+</Image>
+
+<SansFamille rdf:about="#wolf">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SansFamille>
+
+<Image rdf:about="#n02114367_8910">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#wolf"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02114367_8965">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#wolf"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02114367_9012">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#wolf"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02114367_9015">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#wolf"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02114367_902">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#wolf"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02114367_9077">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#wolf"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02114367_911">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#wolf"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
+</Image>
+
+<Image rdf:about="#n02114367_9119">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#wolf"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02114367_9141">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#wolf"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02114367_9142">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#wolf"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02114367_9155">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#wolf"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02114367_9166">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#wolf"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02114367_9188">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#wolf"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02114367_92">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#wolf"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
+</Image>
+
+<Image rdf:about="#n02114367_9244">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#wolf"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
+</Image>
+
+<Image rdf:about="#n02114367_9251">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#wolf"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02114367_9270">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#wolf"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02114367_9299">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#wolf"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02114367_9307">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#wolf"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02114367_9315">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#wolf"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02114367_9319">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#wolf"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02114367_934">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#wolf"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02114367_9349">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#wolf"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02114367_9370">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#wolf"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02114367_9373">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#wolf"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02114367_9374">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#wolf"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02114367_939">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#wolf"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
+</Image>
+
+<Image rdf:about="#n02114367_940">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#wolf"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02114367_9404">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#wolf"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02114367_9424">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#wolf"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02114367_9428">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#wolf"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02114367_9430">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#wolf"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02114367_9441">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#wolf"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
+</Image>
+
+<Image rdf:about="#n02114367_9445">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#wolf"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02114367_945">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#wolf"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
+</Image>
+
+<Image rdf:about="#n02114367_9459">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#wolf"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02114367_9476">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#wolf"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02114367_9582">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#wolf"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02114367_9593">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#wolf"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02114367_9599">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#wolf"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02114367_964">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#wolf"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02114367_9649">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#wolf"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
+</Image>
+
+<Image rdf:about="#n02114367_9657">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#wolf"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02114367_9659">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#wolf"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02114367_9671">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#wolf"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02114367_9676">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#wolf"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
+</Image>
+
+<Image rdf:about="#n02114367_9682">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#wolf"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
+</Image>
+
+<Image rdf:about="#n02114367_9687">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#wolf"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02114367_9692">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#wolf"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02114367_9701">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#wolf"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02114367_971">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#wolf"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02114367_9722">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#wolf"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
+</Image>
+
+<Image rdf:about="#n02114367_9739">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#wolf"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
+</Image>
+
+<Image rdf:about="#n02114367_975">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#wolf"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02114367_979">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#wolf"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
+</Image>
+
+<Image rdf:about="#n02114367_9810">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#wolf"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02114367_9812">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#wolf"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02114367_9814">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#wolf"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02114367_9837">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#wolf"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
+</Image>
+
+<Image rdf:about="#n02114367_986">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#wolf"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02114367_991">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#wolf"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02114367_9917">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#wolf"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02114367_9936">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#wolf"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
+</Image>
+
+<Image rdf:about="#n02114367_9940">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#wolf"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
+</Image>
+
+<Image rdf:about="#n02114367_9983">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#wolf"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02133161_893">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bear"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02133161_894">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bear"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
+</Image>
+
+<Image rdf:about="#n02133161_8942">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bear"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02133161_8947">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bear"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02133161_895">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bear"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
+</Image>
+
+<Image rdf:about="#n02133161_897">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bear"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
+</Image>
+
+<Image rdf:about="#n02133161_8982">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bear"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02133161_9013">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bear"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02133161_903">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bear"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02133161_9037">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bear"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02133161_9039">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bear"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02133161_9088">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bear"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02133161_9098">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bear"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02133161_911">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bear"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02133161_9134">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bear"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
+</Image>
+
+<Image rdf:about="#n02133161_9138">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bear"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02133161_9142">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bear"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02133161_92">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bear"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02133161_928">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bear"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
+</Image>
+
+<Image rdf:about="#n02133161_9364">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bear"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02133161_9371">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bear"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02133161_9387">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bear"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02133161_939">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bear"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
+</Image>
+
+<Image rdf:about="#n02133161_941">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bear"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02133161_9424">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bear"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
+</Image>
+
+<Image rdf:about="#n02133161_9434">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bear"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02133161_9449">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bear"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02133161_9463">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bear"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02133161_948">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bear"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02133161_9490">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bear"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
+</Image>
+
+<Image rdf:about="#n02133161_953">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bear"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02133161_955">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bear"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02133161_958">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bear"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02133161_9583">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bear"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02133161_959">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bear"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02133161_9600">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bear"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02133161_9642">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bear"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
+</Image>
+
+<Image rdf:about="#n02133161_9643">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bear"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
+</Image>
+
+<Image rdf:about="#n02133161_9669">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bear"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02133161_9672">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bear"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
+</Image>
+
+<Image rdf:about="#n02133161_968">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bear"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
+</Image>
+
+<Image rdf:about="#n02133161_97">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bear"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02133161_9724">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bear"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02133161_9746">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bear"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02133161_975">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bear"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
+</Image>
+
+<Image rdf:about="#n02133161_976">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bear"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02133161_9783">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bear"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02133161_9786">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bear"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02133161_9809">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bear"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
+</Image>
+
+<Image rdf:about="#n02133161_9816">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bear"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
+</Image>
+
+<Image rdf:about="#n02133161_982">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bear"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
+</Image>
+
+<Image rdf:about="#n02133161_9827">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bear"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02133161_9844">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bear"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02133161_9863">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bear"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
+</Image>
+
+<Image rdf:about="#n02133161_987">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bear"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02133161_9888">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bear"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02133161_989">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bear"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02133161_991">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bear"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02133161_9937">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bear"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02133161_9949">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bear"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02133161_9950">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bear"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02133161_9953">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bear"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02133161_9960">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bear"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02133161_9962">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bear"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02133161_9973">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bear"/>
+  <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
+</Image>
+
+<Image rdf:about="#n02133161_9978">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Contient rdf:resource="#bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
 </Image>
 
@@ -189,8 +2566,8 @@
     <rdf:Description rdf:about="#bear"/>
     <rdf:Description rdf:about="#big_cat"/>
     <rdf:Description rdf:about="#electric_fish"/>
-    <rdf:Description rdf:about="#elephant-1"/>
-    <rdf:Description rdf:about="#penguin-1"/>
+    <rdf:Description rdf:about="#elephant"/>
+    <rdf:Description rdf:about="#penguin"/>
     <rdf:Description rdf:about="#vegetable"/>
   </owl:members>
 </owl:AllDisjointClasses>
@@ -198,12 +2575,108 @@
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#animal"/>
-    <rdf:Description rdf:about="#elephant-2"/>
+    <rdf:Description rdf:about="#elephant"/>
     <rdf:Description rdf:about="#felidae"/>
     <rdf:Description rdf:about="#fish"/>
     <rdf:Description rdf:about="#food_ingredient"/>
     <rdf:Description rdf:about="#mammal"/>
-    <rdf:Description rdf:about="#penguin-2"/>
+    <rdf:Description rdf:about="#penguin"/>
+  </owl:members>
+</owl:AllDisjointClasses>
+
+<owl:AllDisjointClasses>
+  <owl:members rdf:parseType="Collection">
+    <rdf:Description rdf:about="#asian_elephant"/>
+    <rdf:Description rdf:about="#bear"/>
+    <rdf:Description rdf:about="#big_cat"/>
+    <rdf:Description rdf:about="#electric_fish"/>
+    <rdf:Description rdf:about="#elephant"/>
+    <rdf:Description rdf:about="#penguin"/>
+    <rdf:Description rdf:about="#vegetable"/>
+  </owl:members>
+</owl:AllDisjointClasses>
+
+<owl:AllDisjointClasses>
+  <owl:members rdf:parseType="Collection">
+    <rdf:Description rdf:about="#animal"/>
+    <rdf:Description rdf:about="#elephant"/>
+    <rdf:Description rdf:about="#felidae"/>
+    <rdf:Description rdf:about="#fish"/>
+    <rdf:Description rdf:about="#food_ingredient"/>
+    <rdf:Description rdf:about="#mammal"/>
+    <rdf:Description rdf:about="#penguin"/>
+  </owl:members>
+</owl:AllDisjointClasses>
+
+<owl:AllDisjointClasses>
+  <owl:members rdf:parseType="Collection">
+    <rdf:Description rdf:about="#asian_elephant"/>
+    <rdf:Description rdf:about="#bear"/>
+    <rdf:Description rdf:about="#big_cat"/>
+    <rdf:Description rdf:about="#electric_fish"/>
+    <rdf:Description rdf:about="#elephant"/>
+    <rdf:Description rdf:about="#penguin"/>
+    <rdf:Description rdf:about="#vegetable"/>
+  </owl:members>
+</owl:AllDisjointClasses>
+
+<owl:AllDisjointClasses>
+  <owl:members rdf:parseType="Collection">
+    <rdf:Description rdf:about="#animal"/>
+    <rdf:Description rdf:about="#elephant"/>
+    <rdf:Description rdf:about="#felidae"/>
+    <rdf:Description rdf:about="#fish"/>
+    <rdf:Description rdf:about="#food_ingredient"/>
+    <rdf:Description rdf:about="#mammal"/>
+    <rdf:Description rdf:about="#penguin"/>
+  </owl:members>
+</owl:AllDisjointClasses>
+
+<owl:AllDisjointClasses>
+  <owl:members rdf:parseType="Collection">
+    <rdf:Description rdf:about="#asian_elephant"/>
+    <rdf:Description rdf:about="#bear"/>
+    <rdf:Description rdf:about="#big_cat"/>
+    <rdf:Description rdf:about="#electric_fish"/>
+    <rdf:Description rdf:about="#elephant"/>
+    <rdf:Description rdf:about="#penguin"/>
+    <rdf:Description rdf:about="#vegetable"/>
+  </owl:members>
+</owl:AllDisjointClasses>
+
+<owl:AllDisjointClasses>
+  <owl:members rdf:parseType="Collection">
+    <rdf:Description rdf:about="#animal"/>
+    <rdf:Description rdf:about="#elephant"/>
+    <rdf:Description rdf:about="#felidae"/>
+    <rdf:Description rdf:about="#fish"/>
+    <rdf:Description rdf:about="#food_ingredient"/>
+    <rdf:Description rdf:about="#mammal"/>
+    <rdf:Description rdf:about="#penguin"/>
+  </owl:members>
+</owl:AllDisjointClasses>
+
+<owl:AllDisjointClasses>
+  <owl:members rdf:parseType="Collection">
+    <rdf:Description rdf:about="#asian_elephant"/>
+    <rdf:Description rdf:about="#bear"/>
+    <rdf:Description rdf:about="#big_cat"/>
+    <rdf:Description rdf:about="#electric_fish"/>
+    <rdf:Description rdf:about="#elephant"/>
+    <rdf:Description rdf:about="#penguin"/>
+    <rdf:Description rdf:about="#vegetable"/>
+  </owl:members>
+</owl:AllDisjointClasses>
+
+<owl:AllDisjointClasses>
+  <owl:members rdf:parseType="Collection">
+    <rdf:Description rdf:about="#animal"/>
+    <rdf:Description rdf:about="#elephant"/>
+    <rdf:Description rdf:about="#felidae"/>
+    <rdf:Description rdf:about="#fish"/>
+    <rdf:Description rdf:about="#food_ingredient"/>
+    <rdf:Description rdf:about="#mammal"/>
+    <rdf:Description rdf:about="#penguin"/>
   </owl:members>
 </owl:AllDisjointClasses>
 
