@@ -1,7 +1,7 @@
-ILSVRC
+Code/ILSVRC
 
-data
+Code/data
 
-.ipynb_checkpoints
+Code/.ipynb_checkpoints
 
-output
+Code/output
