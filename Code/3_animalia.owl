@@ -3,10 +3,10 @@
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
          xmlns:owl="http://www.w3.org/2002/07/owl#"
-         xml:base="http://exampleOK22.com/animalia.owl"
-         xmlns="http://exampleOK22.com/animalia.owl#">
+         xml:base="http://example.com/animalia.owl"
+         xmlns="http://example.com/animalia.owl#">
 
-<owl:Ontology rdf:about="http://exampleOK22.com/animalia.owl"/>
+<owl:Ontology rdf:about="http://example.com/animalia.owl"/>
 
 <owl:ObjectProperty rdf:about="#Contient">
   <rdfs:domain rdf:resource="#Image"/>
@@ -531,20 +531,20 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#goldfish"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">376</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01443537/n01443537_8719.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01443537/n01443537_8719.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">376</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01443537_875">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#goldfish"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">200</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">233</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01443537/n01443537_875.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01443537/n01443537_875.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">200</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">233</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01443537_8787">
@@ -569,20 +569,20 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#goldfish"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">250</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">169</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01443537/n01443537_883.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01443537/n01443537_883.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">250</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">169</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01443537_8841">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#goldfish"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">375</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01443537/n01443537_8841.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01443537/n01443537_8841.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">375</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01443537_8868">
@@ -595,10 +595,10 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#goldfish"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">640</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">480</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01443537/n01443537_888.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01443537/n01443537_888.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">640</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">480</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01443537_891">
@@ -611,20 +611,20 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#goldfish"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">333</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01443537/n01443537_8938.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01443537/n01443537_8938.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">333</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01443537_894">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#goldfish"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">176</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">100</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01443537/n01443537_894.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01443537/n01443537_894.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">176</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">100</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01443537_896">
@@ -637,20 +637,20 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#goldfish"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">332</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01443537/n01443537_8989.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01443537/n01443537_8989.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">332</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01443537_9048">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#goldfish"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">320</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">240</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01443537/n01443537_9048.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01443537/n01443537_9048.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">320</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">240</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01443537_9069">
@@ -675,20 +675,20 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#goldfish"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">331</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01443537/n01443537_9161.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01443537/n01443537_9161.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">331</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01443537_9204">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#goldfish"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">334</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01443537/n01443537_9204.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01443537/n01443537_9204.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">334</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01443537_9265">
@@ -713,20 +713,20 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#goldfish"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">386</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01443537/n01443537_9347.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01443537/n01443537_9347.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">386</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01443537_9364">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#goldfish"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">333</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01443537/n01443537_9364.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01443537/n01443537_9364.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">333</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01443537_9438">
@@ -745,10 +745,10 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#goldfish"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">323</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01443537/n01443537_9475.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01443537/n01443537_9475.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">323</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01443537_9483">
@@ -761,30 +761,30 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#goldfish"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">400</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01443537/n01443537_9500.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01443537/n01443537_9500.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">400</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01443537_951">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#goldfish"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">418</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01443537/n01443537_951.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01443537/n01443537_951.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">418</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01443537_9529">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#goldfish"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">375</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01443537/n01443537_9529.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01443537/n01443537_9529.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">375</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01443537_9531">
@@ -797,20 +797,20 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#goldfish"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">375</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01443537/n01443537_9534.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01443537/n01443537_9534.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">375</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01443537_9552">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#goldfish"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">375</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01443537/n01443537_9552.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01443537/n01443537_9552.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">375</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01443537_9558">
@@ -823,10 +823,10 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#goldfish"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">842</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">581</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01443537/n01443537_957.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01443537/n01443537_957.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">842</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">581</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01443537_9587">
@@ -839,30 +839,30 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#goldfish"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">375</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01443537/n01443537_9603.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01443537/n01443537_9603.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">375</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01443537_962">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#goldfish"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1600</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1200</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01443537/n01443537_962.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01443537/n01443537_962.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1600</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1200</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01443537_9621">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#goldfish"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">281</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01443537/n01443537_9621.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01443537/n01443537_9621.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">281</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01443537_963">
@@ -887,40 +887,40 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#goldfish"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">375</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01443537/n01443537_9703.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01443537/n01443537_9703.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">375</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01443537_9712">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#goldfish"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">375</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01443537/n01443537_9712.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01443537/n01443537_9712.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">375</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01443537_9740">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#goldfish"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">375</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01443537/n01443537_9740.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01443537/n01443537_9740.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">375</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01443537_9743">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#goldfish"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">375</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01443537/n01443537_9743.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01443537/n01443537_9743.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">375</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01443537_9744">
@@ -933,10 +933,10 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#goldfish"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">394</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01443537/n01443537_9748.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01443537/n01443537_9748.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">394</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01443537_9753">
@@ -949,10 +949,10 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#goldfish"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">333</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01443537/n01443537_9799.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01443537/n01443537_9799.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">333</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01443537_9812">
@@ -977,20 +977,20 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#goldfish"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">395</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01443537/n01443537_9841.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01443537/n01443537_9841.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">395</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01443537_9869">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#goldfish"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">422</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">282</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01443537/n01443537_9869.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01443537/n01443537_9869.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">422</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">282</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01443537_9871">
@@ -1015,20 +1015,20 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#goldfish"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">375</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01443537/n01443537_9945.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01443537/n01443537_9945.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">375</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01443537_9946">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#goldfish"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">335</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01443537/n01443537_9946.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01443537/n01443537_9946.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">335</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01443537_9961">
@@ -1041,10 +1041,10 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#goldfish"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">375</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01443537/n01443537_9977.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01443537/n01443537_9977.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">375</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01484850_8749">
@@ -1057,10 +1057,10 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#great_white_shark"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">400</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">257</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01484850/n01484850_875.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01484850/n01484850_875.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">400</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">257</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01484850_8780">
@@ -1073,20 +1073,20 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#great_white_shark"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">334</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01484850/n01484850_8788.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01484850/n01484850_8788.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">334</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01484850_8792">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#great_white_shark"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">375</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01484850/n01484850_8792.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01484850/n01484850_8792.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">375</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01484850_8799">
@@ -1117,10 +1117,10 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#great_white_shark"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">333</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01484850/n01484850_8851.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01484850/n01484850_8851.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">333</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01484850_8866">
@@ -1133,20 +1133,20 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#great_white_shark"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">364</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01484850/n01484850_8886.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01484850/n01484850_8886.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">364</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01484850_8911">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#great_white_shark"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">332</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01484850/n01484850_8911.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01484850/n01484850_8911.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">332</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01484850_8943">
@@ -1159,10 +1159,10 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#great_white_shark"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">375</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01484850/n01484850_8947.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01484850/n01484850_8947.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">375</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01484850_8956">
@@ -1193,10 +1193,10 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#great_white_shark"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">291</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01484850/n01484850_899.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01484850/n01484850_899.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">291</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01484850_8994">
@@ -1209,30 +1209,30 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#great_white_shark"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">375</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01484850/n01484850_9001.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01484850/n01484850_9001.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">375</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01484850_9006">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#great_white_shark"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">375</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01484850/n01484850_9006.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01484850/n01484850_9006.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">375</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01484850_9008">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#great_white_shark"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">416</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01484850/n01484850_9008.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01484850/n01484850_9008.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">416</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01484850_9011">
@@ -1251,10 +1251,10 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#great_white_shark"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">333</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01484850/n01484850_9053.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01484850/n01484850_9053.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">333</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01484850_9063">
@@ -1267,30 +1267,30 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#great_white_shark"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">320</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">240</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01484850/n01484850_9071.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01484850/n01484850_9071.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">320</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">240</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01484850_9078">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#great_white_shark"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">338</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01484850/n01484850_9078.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01484850/n01484850_9078.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">338</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01484850_9174">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#great_white_shark"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">359</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">348</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01484850/n01484850_9174.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01484850/n01484850_9174.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">359</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">348</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01484850_9193">
@@ -1303,10 +1303,10 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#great_white_shark"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">319</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01484850/n01484850_9204.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01484850/n01484850_9204.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">319</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01484850_927">
@@ -1319,20 +1319,20 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#great_white_shark"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">366</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">273</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01484850/n01484850_931.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01484850/n01484850_931.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">366</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">273</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01484850_9311">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#great_white_shark"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">439</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">329</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01484850/n01484850_9311.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01484850/n01484850_9311.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">439</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">329</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01484850_936">
@@ -1357,10 +1357,10 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#great_white_shark"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">331</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01484850/n01484850_9424.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01484850/n01484850_9424.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">331</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01484850_9425">
@@ -1373,10 +1373,10 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#great_white_shark"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">351</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01484850/n01484850_9473.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01484850/n01484850_9473.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">351</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01484850_9474">
@@ -1395,10 +1395,10 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#great_white_shark"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">385</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01484850/n01484850_9498.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01484850/n01484850_9498.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">385</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01484850_95">
@@ -1417,10 +1417,10 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#great_white_shark"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">333</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01484850/n01484850_9549.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01484850/n01484850_9549.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">333</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01484850_9558">
@@ -1451,20 +1451,20 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#great_white_shark"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">357</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01484850/n01484850_9667.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01484850/n01484850_9667.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">357</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01484850_9680">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#great_white_shark"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">335</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01484850/n01484850_9680.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01484850/n01484850_9680.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">335</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01484850_9681">
@@ -1477,10 +1477,10 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#great_white_shark"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">333</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01484850/n01484850_9684.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01484850/n01484850_9684.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">333</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01484850_9690">
@@ -1499,30 +1499,30 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#great_white_shark"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">375</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01484850/n01484850_977.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01484850/n01484850_977.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">375</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01484850_9770">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#great_white_shark"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">335</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01484850/n01484850_9770.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01484850/n01484850_9770.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">335</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01484850_9813">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#great_white_shark"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">369</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01484850/n01484850_9813.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01484850/n01484850_9813.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">369</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01484850_9843">
@@ -1541,10 +1541,10 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#great_white_shark"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">414</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01484850/n01484850_9930.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01484850/n01484850_9930.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">414</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01484850_9951">
@@ -1575,10 +1575,10 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#indigo_bunting"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">399</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01537544/n01537544_9132.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01537544/n01537544_9132.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">399</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01537544_9138">
@@ -1597,40 +1597,40 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#indigo_bunting"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">364</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01537544/n01537544_9179.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01537544/n01537544_9179.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">364</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01537544_9184">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#indigo_bunting"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">375</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01537544/n01537544_9184.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01537544/n01537544_9184.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">375</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01537544_9188">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#indigo_bunting"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">313</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01537544/n01537544_9188.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01537544/n01537544_9188.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">313</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01537544_9198">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#indigo_bunting"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">357</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01537544/n01537544_9198.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01537544/n01537544_9198.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">357</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01537544_9202">
@@ -1643,60 +1643,60 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#indigo_bunting"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">375</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01537544/n01537544_9206.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01537544/n01537544_9206.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">375</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01537544_9213">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#indigo_bunting"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">333</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01537544/n01537544_9213.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01537544/n01537544_9213.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">333</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01537544_9223">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#indigo_bunting"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">277</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01537544/n01537544_9223.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01537544/n01537544_9223.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">277</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01537544_9234">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#indigo_bunting"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">400</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01537544/n01537544_9234.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01537544/n01537544_9234.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">400</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01537544_9247">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#indigo_bunting"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">333</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01537544/n01537544_9247.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01537544/n01537544_9247.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">333</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01537544_9249">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#indigo_bunting"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">356</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01537544/n01537544_9249.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01537544/n01537544_9249.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">356</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01537544_9345">
@@ -1709,10 +1709,10 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#indigo_bunting"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">333</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01537544/n01537544_9379.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01537544/n01537544_9379.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">333</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01537544_938">
@@ -1725,20 +1725,20 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#indigo_bunting"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">375</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01537544/n01537544_9384.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01537544/n01537544_9384.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">375</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01537544_9387">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#indigo_bunting"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">375</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01537544/n01537544_9387.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01537544/n01537544_9387.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">375</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01537544_9426">
@@ -1751,40 +1751,40 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#indigo_bunting"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">287</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01537544/n01537544_9431.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01537544/n01537544_9431.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">287</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01537544_9440">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#indigo_bunting"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">375</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01537544/n01537544_9440.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01537544/n01537544_9440.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">375</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01537544_9464">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#indigo_bunting"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">338</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01537544/n01537544_9464.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01537544/n01537544_9464.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">338</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01537544_9472">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#indigo_bunting"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">333</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01537544/n01537544_9472.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01537544/n01537544_9472.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">333</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01537544_950">
@@ -1797,90 +1797,90 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#indigo_bunting"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">347</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01537544/n01537544_9506.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01537544/n01537544_9506.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">347</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01537544_9528">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#indigo_bunting"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">333</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01537544/n01537544_9528.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01537544/n01537544_9528.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">333</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01537544_9538">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#indigo_bunting"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">388</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01537544/n01537544_9538.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01537544/n01537544_9538.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">388</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01537544_9540">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#indigo_bunting"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">492</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01537544/n01537544_9540.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01537544/n01537544_9540.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">492</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01537544_9541">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#indigo_bunting"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">372</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01537544/n01537544_9541.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01537544/n01537544_9541.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">372</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01537544_9542">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#indigo_bunting"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">333</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01537544/n01537544_9542.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01537544/n01537544_9542.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">333</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01537544_9556">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#indigo_bunting"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">481</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01537544/n01537544_9556.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01537544/n01537544_9556.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">481</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01537544_956">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#indigo_bunting"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">420</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01537544/n01537544_956.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01537544/n01537544_956.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">420</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01537544_9569">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#indigo_bunting"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">391</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01537544/n01537544_9569.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01537544/n01537544_9569.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">391</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01537544_9580">
@@ -1905,40 +1905,40 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#indigo_bunting"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">475</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01537544/n01537544_9625.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01537544/n01537544_9625.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">475</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01537544_9663">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#indigo_bunting"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">492</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01537544/n01537544_9663.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01537544/n01537544_9663.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">492</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01537544_9671">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#indigo_bunting"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">333</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01537544/n01537544_9671.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01537544/n01537544_9671.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">333</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01537544_9683">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#indigo_bunting"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">493</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">456</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01537544/n01537544_9683.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01537544/n01537544_9683.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">493</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">456</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01537544_969">
@@ -1951,40 +1951,40 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#indigo_bunting"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">406</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01537544/n01537544_9736.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01537544/n01537544_9736.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">406</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01537544_9745">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#indigo_bunting"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">375</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01537544/n01537544_9745.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01537544/n01537544_9745.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">375</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01537544_9780">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#indigo_bunting"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">350</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01537544/n01537544_9780.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01537544/n01537544_9780.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">350</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01537544_9796">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#indigo_bunting"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">333</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01537544/n01537544_9796.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01537544/n01537544_9796.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">333</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01537544_98">
@@ -1997,20 +1997,20 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#indigo_bunting"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">357</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01537544/n01537544_9801.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01537544/n01537544_9801.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">357</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01537544_9805">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#indigo_bunting"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">375</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01537544/n01537544_9805.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01537544/n01537544_9805.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">375</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01537544_9815">
@@ -2035,10 +2035,10 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#indigo_bunting"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">476</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01537544/n01537544_9830.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01537544/n01537544_9830.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">476</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01537544_9832">
@@ -2051,20 +2051,20 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#indigo_bunting"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">400</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01537544/n01537544_9851.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01537544/n01537544_9851.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">400</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01537544_9881">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#indigo_bunting"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">334</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01537544/n01537544_9881.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01537544/n01537544_9881.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">334</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01537544_9887">
@@ -2077,10 +2077,10 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#indigo_bunting"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">375</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01537544/n01537544_9892.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01537544/n01537544_9892.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">375</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01537544_99">
@@ -2093,10 +2093,10 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#indigo_bunting"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">375</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01537544/n01537544_9922.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01537544/n01537544_9922.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">375</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01537544_9944">
@@ -2109,30 +2109,30 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#indigo_bunting"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">333</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01537544/n01537544_9949.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01537544/n01537544_9949.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">333</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01537544_9964">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#indigo_bunting"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">492</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01537544/n01537544_9964.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01537544/n01537544_9964.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">492</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01537544_9994">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#indigo_bunting"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">375</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01537544/n01537544_9994.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01537544/n01537544_9994.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">375</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01614925_9149">
@@ -2187,10 +2187,10 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#bald_eagle"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01614925/n01614925_920.xml</URL>
   <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01614925/n01614925_920.xml</Depth>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01614925_9220">
@@ -2239,10 +2239,10 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#bald_eagle"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01614925/n01614925_9303.xml</URL>
   <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01614925/n01614925_9303.xml</Depth>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01614925_9309">
@@ -2267,10 +2267,10 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#bald_eagle"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">365</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01614925/n01614925_9349.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01614925/n01614925_9349.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">365</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01614925_9351">
@@ -2379,10 +2379,10 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#bald_eagle"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">386</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01614925/n01614925_9624.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01614925/n01614925_9624.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">386</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01614925_9631">
@@ -2395,10 +2395,10 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#bald_eagle"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">472</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01614925/n01614925_9638.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01614925/n01614925_9638.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">472</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01614925_9657">
@@ -2423,10 +2423,10 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#bald_eagle"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">335</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01614925/n01614925_9689.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01614925/n01614925_9689.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">335</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01614925_9697">
@@ -2457,10 +2457,10 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#bald_eagle"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">400</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01614925/n01614925_9733.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01614925/n01614925_9733.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">400</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01614925_9736">
@@ -2497,30 +2497,30 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#bald_eagle"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">375</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01614925/n01614925_9799.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01614925/n01614925_9799.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">375</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01614925_9802">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#bald_eagle"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">236</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">350</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01614925/n01614925_9802.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01614925/n01614925_9802.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">236</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">350</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01614925_9840">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#bald_eagle"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">433</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01614925/n01614925_9840.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01614925/n01614925_9840.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">433</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01614925_9843">
@@ -2533,10 +2533,10 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#bald_eagle"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">357</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01614925/n01614925_986.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01614925/n01614925_986.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">357</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01614925_9861">
@@ -2549,10 +2549,10 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#bald_eagle"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">313</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01614925/n01614925_9901.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01614925/n01614925_9901.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">313</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01614925_9920">
@@ -2565,20 +2565,20 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#bald_eagle"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">354</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01614925/n01614925_9967.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01614925/n01614925_9967.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">354</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01614925_9970">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#bald_eagle"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">363</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01614925/n01614925_9970.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n01614925/n01614925_9970.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">363</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n01614925_9987">
@@ -2591,30 +2591,30 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#wolf"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">333</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02114367/n02114367_8883.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02114367/n02114367_8883.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">333</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n02114367_8910">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#wolf"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">375</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02114367/n02114367_8910.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02114367/n02114367_8910.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">375</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n02114367_8965">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#wolf"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">333</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02114367/n02114367_8965.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02114367/n02114367_8965.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">333</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n02114367_9012">
@@ -2633,30 +2633,30 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#wolf"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">333</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02114367/n02114367_902.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02114367/n02114367_902.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">333</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n02114367_9077">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#wolf"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">212</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">320</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02114367/n02114367_9077.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02114367/n02114367_9077.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">212</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">320</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n02114367_911">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#wolf"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">344</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02114367/n02114367_911.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02114367/n02114367_911.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">344</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n02114367_9119">
@@ -2675,10 +2675,10 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#wolf"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">316</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02114367/n02114367_9142.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02114367/n02114367_9142.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">316</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n02114367_9155">
@@ -2691,10 +2691,10 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#wolf"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">479</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02114367/n02114367_9166.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02114367/n02114367_9166.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">479</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n02114367_9188">
@@ -2707,10 +2707,10 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#wolf"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">388</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02114367/n02114367_92.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02114367/n02114367_92.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">388</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n02114367_9244">
@@ -2729,10 +2729,10 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#wolf"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">375</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02114367/n02114367_9270.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02114367/n02114367_9270.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">375</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n02114367_9299">
@@ -2745,10 +2745,10 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#wolf"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">100</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">81</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02114367/n02114367_9307.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02114367/n02114367_9307.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">100</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">81</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n02114367_9315">
@@ -2761,10 +2761,10 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#wolf"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">200</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">150</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02114367/n02114367_9319.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02114367/n02114367_9319.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">200</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">150</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n02114367_934">
@@ -2783,20 +2783,20 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#wolf"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">160</URL>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02114367/n02114367_9370.xml</URL>
   <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">160</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02114367/n02114367_9370.xml</Depth>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">160</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n02114367_9373">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#wolf"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">333</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02114367/n02114367_9373.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02114367/n02114367_9373.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">333</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n02114367_9374">
@@ -2815,10 +2815,10 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#wolf"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">333</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02114367/n02114367_940.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02114367/n02114367_940.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">333</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n02114367_9404">
@@ -2831,10 +2831,10 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#wolf"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">125</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">110</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02114367/n02114367_9424.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02114367/n02114367_9424.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">125</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">110</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n02114367_9428">
@@ -2847,10 +2847,10 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#wolf"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">250</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">176</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02114367/n02114367_9430.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02114367/n02114367_9430.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">250</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">176</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n02114367_9441">
@@ -2869,10 +2869,10 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#wolf"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">333</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02114367/n02114367_945.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02114367/n02114367_945.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">333</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n02114367_9459">
@@ -2885,20 +2885,20 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#wolf"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">800</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">949</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02114367/n02114367_9476.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02114367/n02114367_9476.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">800</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">949</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n02114367_9582">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#wolf"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">375</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02114367/n02114367_9582.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02114367/n02114367_9582.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">375</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n02114367_9593">
@@ -2917,10 +2917,10 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#wolf"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">346</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02114367/n02114367_964.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02114367/n02114367_964.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">346</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n02114367_9649">
@@ -2939,40 +2939,40 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#wolf"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">335</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02114367/n02114367_9659.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02114367/n02114367_9659.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">335</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n02114367_9671">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#wolf"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">750</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">508</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02114367/n02114367_9671.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02114367/n02114367_9671.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">750</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">508</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n02114367_9676">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#wolf"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">330</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02114367/n02114367_9676.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02114367/n02114367_9676.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">330</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n02114367_9682">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#wolf"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">249</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">349</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02114367/n02114367_9682.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02114367/n02114367_9682.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">249</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">349</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n02114367_9687">
@@ -2991,20 +2991,20 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#wolf"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">318</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02114367/n02114367_9701.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02114367/n02114367_9701.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">318</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n02114367_971">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#wolf"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">112</URL>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02114367/n02114367_971.xml</URL>
   <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">112</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02114367/n02114367_971.xml</Depth>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">112</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n02114367_9722">
@@ -3023,40 +3023,40 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#wolf"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">333</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02114367/n02114367_975.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02114367/n02114367_975.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">333</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n02114367_979">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#wolf"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">375</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02114367/n02114367_979.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02114367/n02114367_979.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">375</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n02114367_9810">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#wolf"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">333</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02114367/n02114367_9810.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02114367/n02114367_9810.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">333</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n02114367_9812">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#wolf"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">375</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02114367/n02114367_9812.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02114367/n02114367_9812.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">375</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n02114367_9814">
@@ -3099,30 +3099,30 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#wolf"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">288</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">453</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02114367/n02114367_9940.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02114367/n02114367_9940.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">288</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">453</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n02114367_9983">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#wolf"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">334</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02114367/n02114367_9983.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02114367/n02114367_9983.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">334</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n02133161_893">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#sloth_bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">200</URL>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02133161/n02133161_893.xml</URL>
   <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">200</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02133161/n02133161_893.xml</Depth>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">200</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n02133161_894">
@@ -3141,20 +3141,20 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#sloth_bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">334</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02133161/n02133161_8947.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02133161/n02133161_8947.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">334</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n02133161_895">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#sloth_bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">333</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02133161/n02133161_895.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02133161/n02133161_895.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">333</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n02133161_897">
@@ -3185,10 +3185,10 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#sloth_bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">225</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">180</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02133161/n02133161_9037.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02133161/n02133161_9037.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">225</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">180</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n02133161_9039">
@@ -3243,10 +3243,10 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#sloth_bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">150</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">100</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02133161/n02133161_928.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02133161/n02133161_928.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">150</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">100</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n02133161_9364">
@@ -3259,10 +3259,10 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#sloth_bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">333</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02133161/n02133161_9371.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02133161/n02133161_9371.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">333</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n02133161_9387">
@@ -3275,10 +3275,10 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#sloth_bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">450</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">324</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02133161/n02133161_939.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02133161/n02133161_939.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">450</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">324</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n02133161_941">
@@ -3297,10 +3297,10 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#sloth_bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">160</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">128</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02133161/n02133161_9434.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02133161/n02133161_9434.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">160</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">128</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n02133161_9449">
@@ -3313,20 +3313,20 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#sloth_bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">400</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02133161/n02133161_9463.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02133161/n02133161_9463.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">400</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n02133161_948">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#sloth_bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">375</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02133161/n02133161_948.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02133161/n02133161_948.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">375</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n02133161_9490">
@@ -3345,10 +3345,10 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#sloth_bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02133161/n02133161_955.xml</URL>
   <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02133161/n02133161_955.xml</Depth>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n02133161_958">
@@ -3367,10 +3367,10 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#sloth_bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">375</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02133161/n02133161_959.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02133161/n02133161_959.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">375</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n02133161_9600">
@@ -3407,20 +3407,20 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#sloth_bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">375</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02133161/n02133161_968.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02133161/n02133161_968.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">375</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n02133161_97">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#sloth_bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">333</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02133161/n02133161_97.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02133161/n02133161_97.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">333</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n02133161_9724">
@@ -3433,10 +3433,10 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#sloth_bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1280</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">853</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02133161/n02133161_9746.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02133161/n02133161_9746.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1280</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">853</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n02133161_975">
@@ -3455,20 +3455,20 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#sloth_bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">334</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02133161/n02133161_9783.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02133161/n02133161_9783.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">334</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n02133161_9786">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#sloth_bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">333</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02133161/n02133161_9786.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02133161/n02133161_9786.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">333</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n02133161_9809">
@@ -3481,40 +3481,40 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#sloth_bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">375</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02133161/n02133161_9816.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02133161/n02133161_9816.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">375</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n02133161_982">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#sloth_bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">334</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02133161/n02133161_982.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02133161/n02133161_982.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">334</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n02133161_9827">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#sloth_bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">365</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02133161/n02133161_9827.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02133161/n02133161_9827.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">365</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n02133161_9844">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#sloth_bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">334</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02133161/n02133161_9844.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02133161/n02133161_9844.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">334</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n02133161_9863">
@@ -3527,20 +3527,20 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#sloth_bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">700</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">529</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02133161/n02133161_987.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02133161/n02133161_987.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">700</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">529</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n02133161_9888">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#sloth_bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">193</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">181</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02133161/n02133161_9888.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02133161/n02133161_9888.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">193</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">181</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n02133161_989">
@@ -3577,20 +3577,20 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#sloth_bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">375</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02133161/n02133161_9953.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02133161/n02133161_9953.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">375</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n02133161_9960">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#sloth_bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">375</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02133161/n02133161_9960.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02133161/n02133161_9960.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">375</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n02133161_9962">
@@ -3603,10 +3603,10 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Contient rdf:resource="#sloth_bear"/>
   <Reconnue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Reconnue>
-  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">285</URL>
-  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">187</Width>
-  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Height>
-  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02133161/n02133161_9973.xml</Depth>
+  <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">./ILSVRC/Annotations/CLS-LOC/train/n02133161/n02133161_9973.xml</URL>
+  <Width rdf:datatype="http://www.w3.org/2001/XMLSchema#string">285</Width>
+  <Height rdf:datatype="http://www.w3.org/2001/XMLSchema#string">187</Height>
+  <Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</Depth>
 </Image>
 
 <Image rdf:about="#n02133161_9978">
