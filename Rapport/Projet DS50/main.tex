@@ -1,0 +1,116 @@
+\documentclass{librairies/lib}
+
+%%%%%%%%%%%%%VARIABLE EN TETE%%%%%%%%%%%
+\newcommand{\TITRE}{\today}
+\newcommand{\NOM}{Web et Connaisance}
+\newcommand{\UVXX}{DS51}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+
+
+
+\begin{document}
+
+
+    \include{pages/titlepage}
+
+
+%\maketitle
+    \newpage
+    \pagestyle{no_number}
+    \section*{Résumé}
+
+
+    Dans le cadre de notre formation d’ingénieur, nous devons réaliser l’exploitation de données sur WikiData, mais aussi créer une ontologie avec ces données. 
+
+
+    En outre, nous avons eu la charge de réaliser un modèle permettant de reconnaître des animaux provenant du dataset ImageNet\cite{imageNet}.
+
+
+
+
+    \newpage
+
+
+
+    \tableofcontents
+    \newpage
+
+
+
+    \pagestyle{number}
+    
+    \section{Présentation}\label{sec:presentation}
+    
+    \input{pages/presentation}
+
+    \newpage
+
+
+    \section{Récupération des données}\label{sec:donnee}
+    
+    \input{Projet DS50/pages/recupDonnes}
+
+    \newpage
+
+
+    \section{Classification et explication des données}\label{sec:modele}
+    
+    \input{Projet DS50/pages/modele}
+
+    \newpage
+
+
+    \section{Création d’une ontologie}\label{sec:onto}
+    
+    \input{Projet DS50/pages/ontologie}
+
+    \newpage
+
+    \section{Conclusion}\label{sec:conclusion}
+    
+    \input{Projet DS50/pages/conclusion}
+
+    \newpage
+    \pagenumbering{roman}
+
+
+
+%\section*{Annexes}
+%\addcontentsline{toc}{section}{Annexes}
+
+
+%Formats de fichiers
+
+%Captures
+
+    
+    \newpage
+
+    \listoffigures
+    \addcontentsline{toc}{section}{Table des images}
+
+
+    %\newpage
+
+    %\listoftables
+    %\addcontentsline{toc}{section}{Table des tableaux}
+
+    \newpage
+
+    \lstlistoflistings
+    \addcontentsline{toc}{section}{Liste des codes sources}
+
+    \newpage
+
+    %\nocite{*} %Pour tout cité, même si non appelé
+    \bibliography{refs}
+    \bibliographystyle{plain}
+    \addcontentsline{toc}{section}{Références}
+
+
+\end{document}

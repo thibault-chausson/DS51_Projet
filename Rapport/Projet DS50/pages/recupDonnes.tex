@@ -1,0 +1,79 @@
+%! Author = thibaultchausson
+%! Date = 28/11/2022
+
+%!TEX root = ../main.tex
+
+
+\subsection{Importation des données}
+
+Comme demandé dans le sujet, nous avons récupéré les données sur le site de la compétition \href{https://www.kaggle.com/competitions/imagenet-object-localization-challenge}{ImageNet Object Localization Challenge} de Kaggle. Nous avons ensuite extrait les données qui nous intéressent, à savoir les fichiers avec les identifiants suivant :
+\begin{itemize}
+    \item n02114367 (loup)
+    \item n01484850 (requin)
+    \item n01614925 (aigle)
+    \item n02133161 (ours)
+    \item n01537544 (passerin indigo)
+    \item n01443537 (poisson rouge)
+\end{itemize}
+
+
+\subsection{Récupération des noms d'animaux}
+
+\subsubsection{Récupération des identifiants des animaux sur Wikidata}
+
+Pour ce faire, nous allons récupérer la liste des différents animaux existant sur Terre grace à WikiData avec une request SPARQL :
+
+\begin{paddingTab} 
+    \begin{customFrame}
+    SELECT DISTINCT ?animal ?animalLabel WHERE {
+      ?animal wdt:P31 wd:Q16521.
+      ?animal rdfs:label ?animalLabel filter (lang(?animalLabel) = "en").
+      #OPTIONAL {?animal wdt:P18 ?image.}
+    } LIMIT 1000000
+    \end{customFrame}
+    \captionof{lstlisting}{Requête SPARQL pour récupérer les animaux \label{cs:animaux}}
+\end{paddingTab}
+
+Nous téléchargeons le fichier CSV pour les 1000000 premiers résultats et nous le sauvegardons dans le fichier \textit{animals.csv}, pour pouvoir l'exploiter plus tard.
+
+\subsubsection{Récupération des identifiants des animaux sur Kaggle}
+
+Sur Kaggle, nous récupérons le fichier \href{https://www.kaggle.com/competitions/imagenet-object-localization-challenge/data?select=LOC_synset_mapping.txt}{LOC\_synset\_mapping.txt}, qui contient la liste des identifiants des animaux avec leur nom.
+
+La correspondance entre les 1000 synsets id et leurs descriptions. Par exemple, la ligne 1 indique n01440764 tanche, Tinca tinca signifie qu'il s'agit de la classe 1, que l'identifiant synset est n01440764 et qu'elle contient le poisson tanche.
+
+\begin{customFrame}
+n01440764 tench, Tinca tinca
+n01443537 goldfish, Carassius auratus   
+\end{customFrame}
+
+\subsection{Récupération des données depuis une base de données : WikiData}
+
+Pour ce faire, nous utiliserons la librairie \textit{wikibaseintegrator}\cite{wikibaseintegrator} qui permet d'interroger la base de données de WikiData.
+Nous voulons récupérer l'ensemble des animaux de la base de données, pour ce faire, nous utiliserons : \textit{WikibaseIntegrator} wbi.item.get(entity\_id='Q729').
+
+
+\subsection{Récupération des sous-classes des animaux}
+
+Nous allons maintenant récupérer les sous-classes des animaux, nous avons choisi de les récupérer sur une profondeur de 2 niveaux. Pour cela, nous allons utiliser la requête SPARQL suivante :
+
+\begin{paddingTab}
+    \begin{customFrame}
+        SELECT ?animal ?animalLabel ?subclass ?subclassLabel ?subclass2 ?subclass2Label
+        WHERE
+        {
+          VALUES ?animal {wd:%s}
+          ?animal wdt:P279 ?subclass .
+          OPTIONAL { ?subclass wdt:P279 ?subclass2 . }
+    
+          SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
+        }
+    \end{customFrame}
+    \captionof{lstlisting}{Requête SPARQL pour récupérer les sous-classes \label{cs:sClasse}}
+\end{paddingTab}
+
+\textit{{wd:\%s}} correspond à l'identifiant de l'animal dont nous voulons déterminer les sous-classes.
+
+Nous avons récupéré la propriété \textit{subclass of}, au lieu de \textit{instant of}, car cette deuxième n'était pas toujours présente dans la liste des animaux fournis, contrairement à la première.
+
+L'utilisation de la bibliothèque \textit{wikibaseintegrator} pour interroger la base de données de WikiData, nous permet de ne pas nous faire bloquer par l'API WikiData si nous faisons trop de requêtes.

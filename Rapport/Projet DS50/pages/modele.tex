@@ -1,0 +1,68 @@
+%! Author = thibaultchausson
+%! Date = 28/11/2022
+
+%!TEX root = ../main.tex
+
+
+\subsection{Classification des données}
+
+Nous allons maintenant utiliser les données de la base de données Image Net qui contient des images de différents animaux, pour faire de la classification et de l'explication.
+
+
+Pour réaliser cette tâche, nous allons utiliser un ensemble d'images issues de la base de données Image Net. Nous allons utiliser les images de 6 classes différentes. Pour chaque classe, nous avons 99\% images d'entraînement et 1\% images de test. Les classes sont les suivantes :
+
+
+\begin{itemize}
+    \item n02114367 (loup)
+    \item n01484850 (requin)
+    \item n01614925 (aigle)
+    \item n02133161 (ours)
+    \item n01537544 (passerin indigo)
+    \item n01443537 (poisson rouge)
+\end{itemize}
+
+
+Nous utiliserons les images d'entraînement pour entraîner un modèle de classification et les images de test pour évaluer la performance du modèle. Nous allons ensuite utiliser les images de test pour expliquer les prédictions du modèle.
+
+
+Nous diviserons notre travail différentes parties :
+
+\begin{enumerate}
+    \item Récupérer les données sur Kaggle et sélectionner les images des classes qui nous intéressent (https://www.kaggle.com/c/imagenet-object-localization-challenge)
+    \item Traiter les données, cela implique de les diviser en classe égale et de les redimensionner, pour ce faire, nous pourrons utiliser des bibliothèques comme OpenCV ou Pillow
+    \item Diviser les données en données d'entraînement et données de test
+    \item Le choix du modèle de classification : nous utiliserons des modèles couramment utilisés pour la classification d'images incluant les réseaux de neurones convolutionnels (CNN), qui ont obtenu de bons résultats dans de nombreux domaines
+    \item Entraîner un modèle de classification, pour ce faire, nous pourrons utiliser des bibliothèques comme Keras ou PyTorch ou TensorFlow
+    \item Évaluer la performance du modèle sur les données de test, et obtenir l'accuracy du modèle
+    \item Utiliser les images de test pour expliquer les prédictions du modèle, pour ce faire, nous pourrons utiliser des bibliothèques comme LIME ou SHAP
+\end{enumerate}
+
+\subsection{Explication des données pour entrainer un modèle}
+
+Les images subissent des transformations lors du chargement, afin de les rendre plus facilement 'interprétables' par le modèle. Ces transformations sont les suivantes :
+\begin{itemize}
+    \item Redimensionnement de l'image à 220 x 172 pixels. Cela conserve les proportions de l'image, et permet de réduire le nombre de pixels à traiter, ce qui réduit la taille du modèle et le temps d'entraînement
+    \item Normalisation des valeurs des pixels entre 0 et 1
+    \item Transformation en tenseur
+\end{itemize}
+
+\subsection{Choix du modèle pour la classification}
+
+Le modèle pour classfier les images est un réseau neuronal convolutionnel. Il est assez commun dans le milieu de la classification d'images d'utiliser un tel modèle pour résoudre cette tâche pour de nombreuses raisons.
+
+
+Tout d'abord, les réseaux neuronaux convolutionnels (CNN en anglais) sont conçus pour extraire des caractéristiques pertinentes à partir d'images. Contrairement aux réseaux neuronaux traditionnels, les CNN tirent parti de la structure spatiale des données d'entrée, en les traitant comme des matrices de pixels, plutôt que de les considérer comme des vecteurs plats. Cette approche permet aux CNN de capturer des motifs locaux tels que des bords, des textures et des formes, ce qui est crucial pour la classification d'images.
+
+
+En utilisant des couches de convolution, les CNN sont capables de détecter des caractéristiques à différents niveaux d'abstraction. Les premières couches apprennent généralement des filtres simples, tels que des lignes ou des points, tandis que les couches plus profondes peuvent capturer des motifs complexes et des structures hiérarchiques. Cette capacité à apprendre des caractéristiques discriminantes à plusieurs niveaux permet aux CNN de comprendre des images de manière progressive, en capturant à la fois des détails fins et des relations globales.
+
+
+De plus, les CNN sont équipés de couches de pooling qui réduisent la dimensionnalité des caractéristiques extraites. Cela permet une représentation plus compacte des informations tout en préservant les aspects les plus saillants des images. La réduction de la dimensionnalité facilite le traitement des données par les couches ultérieures du réseau et améliore l'efficacité du modèle en termes de temps de calcul et de consommation de mémoire.
+
+
+Après 3 couches de CNN, un \og dropout \fg{} est effectué. Cette opération supprime une certaine proportion des neurones du modèle, ce qui à pour effet de ralentir l'over-fitting du modèle sur les données d'entraînement.
+
+
+Enfin, 2 couches linéaires permettent de faire converger le tenseur en entrée vers une des 6 classes que compose cet exercice. Ce modèle ressemble à celui de \href{https://www.youtube.com/watch?v=f0t-OCG79-U}{cette vidéo}.
+
+
